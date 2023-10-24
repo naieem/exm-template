@@ -1,0 +1,3 @@
+.single-product .product .col-2 .woocommerce-product-gallery .flex-direction-nav li.flex-nav-prev a:after, .single-product .product .col-2 .woocommerce-product-gallery .flex-direction-nav li.flex-nav-next a:after, #masthead .nav-wrapper #site-navigation>div>ul>li.menu-item-has-children>a:after{
+	font-family: "FontAwesome" !important;
+}

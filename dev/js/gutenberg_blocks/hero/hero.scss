@@ -1,0 +1,95 @@
+.wp-block-exm-hero{
+    height: 100vh;
+    position: relative;
+    figure {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 0;
+        padding:0;
+        margin:0;
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+
+        .wp-block-embed__wrapper{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+        }
+    }
+    .content{
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        z-index: 1;
+        h1{
+
+            width: 100%;
+            padding-top: 150px;
+            margin:0;
+            font-size: 70px;
+            color:#fff;
+            width: 100%;
+            @media screen and (max-width:768px) {
+                font-size: 45px;
+            }
+        }
+
+        .bottom{
+            width: 100%;
+            align-self: flex-end;
+            margin-top: auto;
+            color: #fff;
+            display: flex;
+            padding-bottom:70px;
+            justify-content: space-between;
+            @media screen and (max-width : 768px) {
+                flex-direction: column;
+                padding-bottom:20px;
+            }
+            .left,.right {
+                display: flex;
+                align-content: flex-end;
+                .wp-block-buttons {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-end;
+
+                }
+                i{
+                    font-size: 0.8em;
+                    transform: translateY(-2px);
+                    vertical-align: middle;
+                }
+                img{
+                    max-height: 70px;
+                    @media screen and (max-width : 768px) {
+                        max-height: 50px;
+                        margin-top:15px
+                        
+                    }
+                }
+            }
+
+        }
+
+        &.isEditor{
+            width: 100%;
+            max-width: 1200px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        
+
+    }
+}

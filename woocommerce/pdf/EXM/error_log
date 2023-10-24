@@ -1,0 +1,20 @@
+[23-Nov-2022 20:03:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /home/acxcomdev/exm.acxcomdev.com/wp-content/themes/exm-manufacturing/woocommerce/pdf/EXM/invoice.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/acxcomdev/exm.acxcomdev.com/wp-content/themes/exm-manufacturing/woocommerce/pdf/EXM/invoice.php on line 3
+[23-Nov-2022 20:03:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /home/acxcomdev/exm.acxcomdev.com/wp-content/themes/exm-manufacturing/woocommerce/pdf/EXM/invoice.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/acxcomdev/exm.acxcomdev.com/wp-content/themes/exm-manufacturing/woocommerce/pdf/EXM/invoice.php on line 3
+[23-Nov-2022 20:03:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /home/acxcomdev/exm.acxcomdev.com/wp-content/themes/exm-manufacturing/woocommerce/pdf/EXM/invoice.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/acxcomdev/exm.acxcomdev.com/wp-content/themes/exm-manufacturing/woocommerce/pdf/EXM/invoice.php on line 3
+[23-Nov-2022 20:03:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /home/acxcomdev/exm.acxcomdev.com/wp-content/themes/exm-manufacturing/woocommerce/pdf/EXM/invoice.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/acxcomdev/exm.acxcomdev.com/wp-content/themes/exm-manufacturing/woocommerce/pdf/EXM/invoice.php on line 3
+[23-Nov-2022 20:04:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /home/acxcomdev/exm.acxcomdev.com/wp-content/themes/exm-manufacturing/woocommerce/pdf/EXM/invoice.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/acxcomdev/exm.acxcomdev.com/wp-content/themes/exm-manufacturing/woocommerce/pdf/EXM/invoice.php on line 3

@@ -1,0 +1,141 @@
+a {
+	color: $color__link;
+	transition: border-color 0.5s , background-color 0.25s, color 0.25s;
+	
+	// &:visited {
+	// 	color: $color__link-visited;
+	// }
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__link-hover;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+a.wp-block-button__link {
+	padding:0.2rem 0.8rem !important;
+	font-weight: 600;
+}
+
+.wp-block-buttons.spaced {
+	.wp-block-button{
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+	}
+}
+
+
+
+@each $index, $hex in $colors {
+	div:not(.is-style-outline) a.wp-block-button__link.has-color-#{$index}-background-color {
+		border:  2px solid $hex;
+		background-color: $hex;
+
+		@each $index2, $hex2 in $colors {
+			&.has-color-#{index2}-color{
+				color: $hex2;
+			}
+		}
+
+		&:hover{
+			background-color:   $hex;
+			border:   2px solid $hex;
+			background-color:transparent;
+			color:$hex;
+		}
+	}
+}
+@each $index, $hex in $colors {
+	div:not(.is-style-outline) a.wp-block-button__link.has-color-#{$index}-color {
+		color: $hex;
+	}
+}
+
+@each $index, $hex in $colors {
+	div.is-style-outline a.wp-block-button__link.has-color-#{$index}-color {
+		border-color:$hex;
+		color:$hex;
+		transition: color 0.25s,background-color 0.25s;
+		&:not(.has-background){
+			background-color: transparent;
+		}
+		
+		&:visited {
+			color:$hex;
+		}
+		&:hover{
+			background-color: $hex;
+			border-color: $hex;
+			
+		}
+		
+	}
+}
+
+div:not(.is-style-outline) a.wp-block-button__link:not(.has-background){
+	background-color: transparent;
+
+}
+
+a.wp-block-button__link {
+	font-weight: bold;
+	i{
+	font-weight: bold;
+
+	}
+}
+
+div.underlined a.wp-block-button__link{
+	text-decoration: underline;
+	font-weight: 500;
+	font-size: 0.9em;
+	&:hover{
+		color:$color__link-hover;
+	}
+	
+}
+
+@each $index, $hex in $colors {
+	div.is-style-outline a.wp-block-button__link.has-color-#{$index}-background-color {
+		&:hover{
+			color:$hex;
+		}
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+.show-more-products {
+	text-align: center;
+	padding:5rem 0 ;
+	.loadmore {
+		border-color:$color_block_palet2;
+		background-color: transparent;
+		color:$color_block_palet2;
+		transition: color 0.25s,background-color 0.25s;
+		&:hover{
+			background-color: $color_block_palet2;
+			border-color: $color_block_palet2;
+			color:$color_block_palet1;
+		}
+		&:visited {
+			color:$color_block_palet2;
+		}
+	}
+}
+

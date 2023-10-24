@@ -1,0 +1,104 @@
+.editor-styles-wrapper p,
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h6,
+p,h1,h2,h3,h4,h5,h6  {
+    $sizes: 14, 16, 18, 20, 36, 40,70 ;
+    @each $size in $sizes {
+        &.fs-#{$size} {
+            font-size: #{$size}px;
+            &.t-responsive{
+                @media screen and (max-width: 768px) {
+                    font-size: calc(#{$size}px * 0.75 );
+                }
+            }
+            &.c-responsive{
+                @media screen and (max-width: 768px) {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    $weights: lighter,normal,bold,bolder;
+    @each $weight in $weights {
+        &.fw-#{$weight} {
+            font-weight: $weight;
+        }
+    } 
+
+
+    $spacings: 0,5,10,15,20,30,40;
+    @each $spacing in $spacings {
+        &.s-t-#{$spacing} {
+            margin-top: #{$spacing}px;
+        }
+        &.s-b-#{$spacing} {
+            margin-bottom: #{$spacing}px;
+        }
+    }
+
+
+    $lns :( "1":1,
+            "1-15":1.15,
+            "1-25":1.25,
+            "1-33":1.33,
+            "1-5":1.5,
+            "1-75":1.75,
+            "1-90":1.90,
+            "2":2);
+    @each $key,$val in $lns {
+        &.ln-#{$key} {
+            line-height: $val;
+        }
+
+    }
+
+
+    $aligns: left,center,right;
+    @each $align in $aligns {
+        &.ta-#{$align} {
+            text-align: $align;
+        }
+    }
+}
+
+
+.cell-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    
+    span {
+        font-size: 24px;
+
+    }
+    i {
+        font-size: 1.3em;
+        cursor: pointer;
+    }
+    span, i {
+        align-self: center;
+    }
+
+}
+.collapsible {
+    max-height:0px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    &.open {
+        max-height:400px;
+
+    }
+    
+}
+
+.wp-block-group.has-color-1-color.has-text-color{
+    .cell-header{
+        border-bottom: 1px solid #fff;
+    }
+}

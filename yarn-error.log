@@ -1,0 +1,66 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/21.0.0/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  21.0.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/hello/Documents/sites/wp/wp-content/themes/exm-manufacturing/node_modules/fsevents'
+
+npm manifest: 
+  {
+    "name": "NOM_DU_PROJET",
+    "version": "1.0.0",
+    "description": "Nom du projet NPM dependencies",
+    "main": "index.js",
+    "dependencies": {
+      "@babel/plugin-transform-react-jsx": "^7.12.5",
+      "pump": "^3.0.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.5.5",
+      "@babel/preset-env": "^7.5.5",
+      "autoprefixer": "^9.6.1",
+      "cssnano": "^4.1.10",
+      "gulp": "^4.0.2",
+      "gulp-babel": "^8.0.0",
+      "gulp-clean-css": "4.2.0",
+      "gulp-notify": "^3.2.0",
+      "gulp-postcss": "^8.0.0",
+      "gulp-rename": "^1.4.0",
+      "gulp-sass": "^4.1.0",
+      "gulp-sourcemaps": "^2.6.5",
+      "gulp-terser": "^1.2.0",
+      "sassdoc": "^2.7.3"
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions"
+    ],
+    "babel": {
+      "sourceType": "script",
+      "presets": [
+        "@babel/preset-env"
+      ]
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Codems",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

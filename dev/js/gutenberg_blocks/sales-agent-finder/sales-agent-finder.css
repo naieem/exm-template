@@ -1,0 +1,225 @@
+.wp-block-exm-sales-agent-finder.isEditor {
+  min-height: 50px;
+  background-color: #c0dea5; }
+.wp-block-exm-sales-agent-finder #contactmap {
+  margin-top: 2em;
+  height: 450px; }
+.wp-block-exm-sales-agent-finder .agents {
+  display: flex;
+  flex-wrap: wrap; }
+  .wp-block-exm-sales-agent-finder .agents .centered {
+    text-align: center;
+    width: 100%; }
+  .wp-block-exm-sales-agent-finder .agents .location-cell {
+    width: calc(50% - 2em); }
+    .wp-block-exm-sales-agent-finder .agents .location-cell:nth-child(2n-1) {
+      margin-right: 2em; }
+    .wp-block-exm-sales-agent-finder .agents .location-cell:nth-child(2n) {
+      margin-left: 2em; }
+    @media screen and (max-width: 768px) {
+      .wp-block-exm-sales-agent-finder .agents .location-cell {
+        width: 100%;
+        margin: 0 !important; } }
+.wp-block-exm-sales-agent-finder .filters {
+  border: 1px solid #000;
+  padding: 1em 2em; }
+  .wp-block-exm-sales-agent-finder .filters > div {
+    display: flex;
+    flex-wrap: wrap; }
+  .wp-block-exm-sales-agent-finder .filters input[type="text"] {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid black;
+    width: auto; }
+    .wp-block-exm-sales-agent-finder .filters input[type="text"][placeholder], .wp-block-exm-sales-agent-finder .filters input[type="text"]::placeholder {
+      color: #000;
+      opacity: 1;
+      padding-left: 0.25em;
+      font-weight: bold;
+      font-size: 2rem; }
+      @media screen and (max-width: 768px) {
+        .wp-block-exm-sales-agent-finder .filters input[type="text"][placeholder], .wp-block-exm-sales-agent-finder .filters input[type="text"]::placeholder {
+          font-size: 1.4rem; } }
+  .wp-block-exm-sales-agent-finder .filters .form-wrapper {
+    margin-right: 2rem;
+    display: flex;
+    align-content: center;
+    align-items: center; }
+    @media screen and (max-width: 768px) {
+      .wp-block-exm-sales-agent-finder .filters .form-wrapper {
+        width: 100%; } }
+    .wp-block-exm-sales-agent-finder .filters .form-wrapper input {
+      max-width: 78%;
+      flex-basis: 78%;
+      flex-grow: 1;
+      flex-shrink: 1; }
+    .wp-block-exm-sales-agent-finder .filters .form-wrapper button {
+      max-width: 22%;
+      flex-basis: 22%;
+      flex-grow: 0;
+      flex-shrink: 0; }
+  .wp-block-exm-sales-agent-finder .filters .ranger-wrapper {
+    width: 250px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    position: relative; }
+    @media screen and (max-width: 768px) {
+      .wp-block-exm-sales-agent-finder .filters .ranger-wrapper {
+        margin-top: 1.5rem;
+        width: 100%; } }
+    .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .title {
+      font-weight: 600; }
+      .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .title .reset {
+        font-size: 0.75em;
+        opacity: 0.4;
+        transition: opacity 0.5s; }
+        .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .title .reset:hover {
+          cursor: pointer;
+          opacity: 1; }
+    .wp-block-exm-sales-agent-finder .filters .ranger-wrapper span.plus, .wp-block-exm-sales-agent-finder .filters .ranger-wrapper span.moins {
+      border: 1px solid #000;
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      border-radius: 50%;
+      background-color: #000;
+      box-sizing: border-box;
+      flex-shrink: 0;
+      color: #fff;
+      cursor: pointer;
+      transition: color 0.25s,background-color 0.25s; }
+      .wp-block-exm-sales-agent-finder .filters .ranger-wrapper span.plus:hover, .wp-block-exm-sales-agent-finder .filters .ranger-wrapper span.moins:hover {
+        color: #000;
+        background-color: #fff; }
+    .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .wrap-add {
+      display: flex; }
+    .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .slider {
+      -webkit-appearance: none;
+      /* Hides the slider so that custom slider can be made */
+      width: 100%;
+      /* Specific width is required for Firefox. */
+      background: transparent;
+      /* Otherwise white in Chrome */
+      border: none;
+      /* Special styling for WebKit/Blink */
+      /* All the same stuff for Firefox */
+      /* All the same stuff for IE */ }
+      .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .slider::-webkit-slider-thumb {
+        -webkit-appearance: none; }
+      .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .slider:focus {
+        outline: none;
+        /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */ }
+      .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .slider::-ms-track {
+        width: 100%;
+        cursor: pointer;
+        /* Hides the slider so custom styles can be added */
+        background: transparent;
+        border-color: transparent;
+        color: transparent; }
+      .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        border: 1px solid #000000;
+        height: 24px;
+        width: 8px;
+        border-radius: 3px;
+        background: #000;
+        cursor: pointer;
+        margin-top: -14px;
+        /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+        box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+        /* Add cool effects to your sliders! */ }
+      .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .slider::-moz-range-thumb {
+        box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+        border: 1px solid #000000;
+        height: 24px;
+        width: 8px;
+        border-radius: 3px;
+        background: #000;
+        cursor: pointer; }
+      .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .slider::-ms-thumb {
+        box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+        border: 1px solid #000000;
+        height: 24px;
+        width: 8px;
+        border-radius: 3px;
+        background: #000;
+        cursor: pointer; }
+      .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .slider::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 5px;
+        cursor: pointer;
+        box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+        background: #000;
+        border-radius: 1.3px;
+        border: 0.2px solid #010101; }
+      .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .slider:focus::-webkit-slider-runnable-track {
+        background: #367ebd; }
+      .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .slider::-moz-range-track {
+        width: 100%;
+        height: 5px;
+        cursor: pointer;
+        box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+        background: #000;
+        border-radius: 1.3px;
+        border: 0.2px solid #010101; }
+      .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .slider::-ms-track {
+        width: 100%;
+        height: 5px;
+        cursor: pointer;
+        background: transparent;
+        border-color: transparent;
+        border-width: 16px 0;
+        color: transparent; }
+      .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .slider::-ms-fill-lower {
+        background: #2a6495;
+        border: 0.2px solid #010101;
+        border-radius: 2.6px;
+        box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; }
+      .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .slider:focus::-ms-fill-lower {
+        background: #000; }
+      .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .slider::-ms-fill-upper {
+        background: #000;
+        border: 0.2px solid #010101;
+        border-radius: 2.6px;
+        box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; }
+      .wp-block-exm-sales-agent-finder .filters .ranger-wrapper .slider:focus::-ms-fill-upper {
+        background: #000; }
+.wp-block-exm-sales-agent-finder .address-link {
+  margin-top: 1em;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+  .wp-block-exm-sales-agent-finder .address-link span {
+    font-size: 16px;
+    cursor: pointer; }
+  .wp-block-exm-sales-agent-finder .address-link a {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    color: #000;
+    padding: 0.5em 0.8em;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.25s, color 0.25s;
+    margin-left: 1em; }
+    .wp-block-exm-sales-agent-finder .address-link a i {
+      align-self: center;
+      margin-left: 0.5em; }
+    .wp-block-exm-sales-agent-finder .address-link a:hover {
+      background-color: #000;
+      color: #fff; }
+.wp-block-exm-sales-agent-finder .contacts {
+  font-size: 14px;
+  margin-top: 0;
+  line-height: 24px; }
+  .wp-block-exm-sales-agent-finder .contacts .title {
+    font-weight: 500; }

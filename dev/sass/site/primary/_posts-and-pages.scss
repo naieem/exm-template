@@ -1,0 +1,104 @@
+.sticky {
+	display: block;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.overlap-top{
+	// transform: translateY(-40%);
+	margin-top: -250px;
+	@include media-screen($bk_mobile){
+		margin-top:2em;
+	}
+}
+
+.wp-embed-aspect-16-9 {
+	.wp-block-embed__wrapper{
+		position: relative;
+		width: 100%;
+		padding-bottom: 56.25%;
+		iframe{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			border: 0;
+		}
+	}
+	
+}
+
+.error-404 {
+	.content{
+		padding: 5rem 0 ;
+	}
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+	min-height: 400px;
+}
+.entry-content {
+	margin:0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+
+.has-color-1-background-color,.has-color-1-background-color.has-color-1-background-color{
+	background-color: $color_block_palet1;
+}
+.has-color-2-background-color,.has-color-2-background-color.has-color-2-background-color{
+	background-color: $color_block_palet2;
+}
+.has-color-3-background-color,.has-color-3-background-color.has-color-3-background-color{
+	background-color: $color_block_palet3;
+}
+.has-color-4-background-color,.has-color-4-background-color.has-color-4-background-color{
+	background-color: $color_block_palet4;
+}
+.has-color-5-background-color,.has-color-5-background-color.has-color-5-background-color{
+	background-color: $color_block_palet5;
+}
+.has-color-6-background-color,.has-color-6-background-color.has-color-6-background-color{
+	background-color: $color_block_palet6;
+}
+.has-color-7-background-color,.has-color-7-background-color.has-color-7-background-color{
+	background-color: $color_block_palet7;
+}
+.has-color-8-background-color,.has-color-8-background-color.has-color-8-background-color{
+	background-color: $color_block_palet8;
+}
+
+.has-color-1-color{
+	color: $color_block_palet1;
+}
+.has-color-2-color{
+	color: $color_block_palet2;
+}
+.has-color-3-color{
+	color: $color_block_palet3;
+}
+.has-color-4-color{
+	color: $color_block_palet4;
+}
+.has-color-5-color{
+	color: $color_block_palet5;
+}
+.has-color-6-color{
+	color: $color_block_palet6;
+}
+.has-color-7-color{
+	color: $color_block_palet7;
+}
+.has-color-8-color{
+	color: $color_block_palet8;
+}

@@ -1,0 +1,29 @@
+.wp-block-exm-step {
+
+    figure {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        img{
+            align-self: center;
+            max-height: 100px;
+        }
+    }
+    h4 {
+        text-transform: uppercase;
+        font-size: 16px;
+        border-bottom:1px solid #000;
+        font-weight: 600;
+        padding-bottom: 0.2em;
+    }
+    .action {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+    @media screen and (max-width:768px){
+        margin-bottom: 80px;
+    }
+}

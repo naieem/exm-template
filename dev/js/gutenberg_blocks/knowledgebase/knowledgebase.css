@@ -1,0 +1,67 @@
+.wp-block-exm-knowledgebase {
+  padding-top: 100px; }
+  @media screen and (max-width: 768px) {
+    .wp-block-exm-knowledgebase {
+      margin: 0 15px;
+      padding-top: 50px; } }
+  .wp-block-exm-knowledgebase > button {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+    font-weight: 600;
+    transition: color 0.25s,background-color 0.25s; }
+    .wp-block-exm-knowledgebase > button + div {
+      padding-top: 25px; }
+    .wp-block-exm-knowledgebase > button:hover {
+      background-color: #fff;
+      color: #000;
+      font-weight: 600;
+      border: 2px solid #000; }
+  .wp-block-exm-knowledgebase .empty {
+    font-weight: 600; }
+  .wp-block-exm-knowledgebase > div {
+    display: flex;
+    flex-wrap: wrap; }
+    .wp-block-exm-knowledgebase > div > div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 1.8em;
+      border: 1px solid #000;
+      margin-bottom: 0.5em;
+      transition: background-color 0.25s; }
+      @media screen and (min-width: 769px) {
+        .wp-block-exm-knowledgebase > div > div {
+          width: calc(25% - 1em); }
+          .wp-block-exm-knowledgebase > div > div:nth-child(4n) {
+            margin-left: 1em;
+            margin-right: 0em; }
+          .wp-block-exm-knowledgebase > div > div:nth-child(4n-3) {
+            margin-right: 1em;
+            margin-left: 0em; }
+          .wp-block-exm-knowledgebase > div > div:nth-child(4n-1) {
+            margin-right: 0.35em;
+            margin-left: 0.65em; }
+          .wp-block-exm-knowledgebase > div > div:nth-child(4n-2) {
+            margin-right: 0.65em;
+            margin-left: 0.35em; } }
+      @media screen and (max-width: 768px) {
+        .wp-block-exm-knowledgebase > div > div {
+          width: calc(50% - 0.5em); }
+          .wp-block-exm-knowledgebase > div > div:nth-child(2n) {
+            margin-left: 0.5em; }
+          .wp-block-exm-knowledgebase > div > div:nth-child(2n-1) {
+            margin-right: 0.5em; } }
+      .wp-block-exm-knowledgebase > div > div:hover {
+        cursor: pointer;
+        background-color: #E6E2E1; }
+      .wp-block-exm-knowledgebase > div > div img {
+        align-self: center;
+        max-height: 60px;
+        max-width: 100px; }
+      .wp-block-exm-knowledgebase > div > div span {
+        align-self: center;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 0.5em;
+        text-align: center; }

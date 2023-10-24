@@ -1,0 +1,23 @@
+.wp-block-exm-custom-spacer{
+    $spacings: 5,10,15,20,30,40,50,60,70,80,90,100,150,200;
+    @each $spacing in $spacings {
+        &.hd-#{$spacing} {
+            @media screen and (min-width: 769px){
+                height: #{$spacing}px ;
+            }
+        }
+        &.hm-#{$spacing} {
+            @media screen and (max-width: 768px){
+                height: #{$spacing}px ;
+            }
+        }
+    }
+    &.isEditor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:#222;
+        font-weight: 800;
+        width: 100%;
+    }
+}

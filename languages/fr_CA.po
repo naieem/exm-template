@@ -1,0 +1,946 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: theme-client\n"
+"POT-Creation-Date: 2021-11-04 12:06-0400\n"
+"PO-Revision-Date: 2021-11-04 12:07-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: 404.php:15
+msgid "404"
+msgstr "404"
+
+#: 404.php:28
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oups! Cette page est introuvable."
+
+#: 404.php:31
+msgid "Return to homepage"
+msgstr "Retour à l’accueil"
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Un commentaire sur &rdquo;%1$s&rdquo;"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s commentaire sur «%2$s»"
+msgstr[1] "%1$s commentaire sur %2$s"
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: dev/js/gutenberg_modifications.js:42
+msgid "direction"
+msgstr "itinéraire"
+
+#: footer.php:28 inc/template-functions.php:89
+msgid "Account"
+msgstr "Compte"
+
+#: footer.php:32
+msgid "Shop"
+msgstr "Magasin"
+
+#: footer.php:41
+msgid "Learn"
+msgstr "Apprendre"
+
+#: footer.php:52
+msgid "Contact us"
+msgstr "Contactez-nous"
+
+#: footer.php:64
+msgid "Stay up to date"
+msgstr "Restez à jour"
+
+#: footer.php:68
+msgid "Enter Email"
+msgstr "Adresse courriel"
+
+#: footer.php:69
+msgid "Subscribe"
+msgstr "S’abonner"
+
+#: footer.php:73
+msgid "See all newsletters"
+msgstr "Voir toutes les infolettres"
+
+#: footer.php:90
+msgid "Copyright"
+msgstr "Copyright"
+
+#: footer.php:90
+msgid "All Rights Reserved"
+msgstr "Tous droits réservés"
+
+#: functions.php:50
+msgid "Primary"
+msgstr "Primaire"
+
+#: functions.php:51
+msgid "Footer first line"
+msgstr "Footer première ligne"
+
+#: functions.php:52
+msgid "Footer second line"
+msgstr "Footer deuxième ligne"
+
+#: functions.php:53
+msgid "Footer copyright line"
+msgstr "Footer ligne de droit d’auteur"
+
+#: functions.php:114
+msgid "Color 1"
+msgstr "Couleur 1"
+
+#: functions.php:119
+msgid "Color 2"
+msgstr "Couleur 2"
+
+#: functions.php:124
+msgid "Color 3"
+msgstr "Couleur 3"
+
+#: functions.php:129
+msgid "Color 4"
+msgstr "Couleur 4"
+
+#: functions.php:134
+msgid "Color 5"
+msgstr "Couleur 5"
+
+#: functions.php:139
+msgid "Color 6"
+msgstr "Couleur 6"
+
+#: functions.php:144
+msgid "Color 7"
+msgstr "Couleur 7"
+
+#: functions.php:149
+msgid "Color 8"
+msgstr "Couleur 8"
+
+#: functions.php:165
+msgid "Sidebar"
+msgstr "Barre latérale"
+
+#: functions.php:167
+msgid "Add widgets here."
+msgstr "Ajoutez des widgets ici."
+
+#: functions.php:265
+msgid "This email address is invalid."
+msgstr "Cette adresse e-mail n’est pas valide."
+
+#: functions.php:266
+msgid "<i class=\"fas fa-spinner fa-pulse\"></i>"
+msgstr "<i class=\"fas fa-spinner fa-pulse\"></i>"
+
+#: functions.php:267
+msgid "Filter by size"
+msgstr "Filtrer par dimension"
+
+#: functions.php:299
+msgid "Locations"
+msgstr "Locations"
+
+#: functions.php:300
+msgid "location"
+msgstr "Location"
+
+#: functions.php:317
+msgid "Sales agents"
+msgstr "Agents de vente"
+
+#: functions.php:318
+msgid "Sales agent"
+msgstr "Agent de vente"
+
+#: functions.php:335
+msgid "Faqs"
+msgstr "FAQs"
+
+#: functions.php:336
+msgid "faqs"
+msgstr "faqs"
+
+#: functions.php:353
+msgid "Documentations"
+msgstr "Documentations"
+
+#: functions.php:354
+msgid "Documentation"
+msgstr "Documentation"
+
+#: functions.php:387
+msgid "Reseller"
+msgstr "Revendeur"
+
+#: header.php:28
+msgid "Skip to content"
+msgstr "Sauter au contenu"
+
+#: inc/acf-blocks.php:24
+msgid "Header spacer"
+msgstr "Espaceur d’en-tête"
+
+#: inc/acf-blocks.php:25
+msgid "A spacer that follows the header's height"
+msgstr "Un espace qui suit la hauteur de l’en-tête"
+
+#: inc/acf-blocks.php:35
+msgid "Slider"
+msgstr "Carousel"
+
+#: inc/acf-blocks.php:36
+msgid "A images slider with a optional text overlay."
+msgstr "Un carousel d'images avec une superposition de texte facultative."
+
+#: inc/acf-blocks.php:53
+msgid "Google Map"
+msgstr "Google Map"
+
+#: inc/acf-blocks.php:54
+msgid "A interactive Google Map."
+msgstr "Une carte google map interactive"
+
+#: inc/acf-blocks.php:63
+msgid "Directions to this place"
+msgstr "Itinéraire vers cet endroit"
+
+#: inc/acf-blocks.php:88
+msgid "Contact form"
+msgstr "Formulaire de contact"
+
+#: inc/acf-blocks.php:89
+msgid "Basic contact form for your customer to get in touch with you."
+msgstr "Formulaire de contact de base pour que votre client vous contacte."
+
+#: inc/gutenberg_blocks_list.php:14
+msgid "Home Banner"
+msgstr "Bannière d’accueil"
+
+#: inc/gutenberg_blocks_list.php:15
+msgid "Title"
+msgstr "Titre"
+
+#: inc/gutenberg_blocks_list.php:16
+msgid "Subtitle"
+msgstr "Sous-titre"
+
+#: inc/gutenberg_blocks_list.php:28
+msgid "Hero"
+msgstr "Héro"
+
+#: inc/gutenberg_blocks_list.php:40
+msgid "Step"
+msgstr "Étape"
+
+#: inc/gutenberg_blocks_list.php:51
+msgid "Custom spacer"
+msgstr "Espaceur personnalisé"
+
+#: inc/gutenberg_blocks_list.php:52
+msgid "Height Desktop"
+msgstr "Hauteur écran large"
+
+#: inc/gutenberg_blocks_list.php:53
+msgid "Height Mobile"
+msgstr "Hauteur Mobile"
+
+#: inc/gutenberg_blocks_list.php:81
+msgid "Locations list"
+msgstr "Liste des locations"
+
+#: inc/gutenberg_blocks_list.php:82 inc/gutenberg_blocks_list.php:117
+msgid "Open maps"
+msgstr "Ouvrir la carte"
+
+#: inc/gutenberg_blocks_list.php:116
+msgid "Sales agent finder"
+msgstr "Recherche d’agent de vente"
+
+#: inc/gutenberg_blocks_list.php:118
+msgid "Find agent"
+msgstr "Trouver un agent"
+
+#: inc/gutenberg_blocks_list.php:119
+msgid "Contact"
+msgstr "Contact"
+
+#: inc/gutenberg_blocks_list.php:120
+msgid "Telephone"
+msgstr "Téléphone"
+
+#: inc/gutenberg_blocks_list.php:121
+msgid "Cell"
+msgstr "Cellulaire"
+
+#: inc/gutenberg_blocks_list.php:122
+msgid "Fax"
+msgstr "Fax"
+
+#: inc/gutenberg_blocks_list.php:123
+msgid "Email"
+msgstr "Adresse courriel"
+
+#: inc/gutenberg_blocks_list.php:124
+msgid "Website"
+msgstr "Plan du site"
+
+#: inc/gutenberg_blocks_list.php:125
+msgid "Address"
+msgstr "Adresse"
+
+#: inc/gutenberg_blocks_list.php:126
+msgid "Search by postal code"
+msgstr "Recherche par code postal"
+
+#: inc/gutenberg_blocks_list.php:127
+msgid "There are no sale agent in the searched zone."
+msgstr "Il n’y a pas d’agent de vente dans la zone recherchée."
+
+#: inc/gutenberg_blocks_list.php:128
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: inc/gutenberg_blocks_list.php:153
+msgid "Faqs list"
+msgstr "Liste faqs"
+
+#: inc/gutenberg_blocks_list.php:154
+msgid "Show more faqs"
+msgstr "Vois plus de faqs"
+
+#: inc/gutenberg_blocks_list.php:188
+msgid "Shop by enclosure"
+msgstr "Magasiner par boîtier"
+
+#: inc/gutenberg_blocks_list.php:254 inc/gutenberg_blocks_list.php:258
+msgid "Resources"
+msgstr "Ressources"
+
+#: inc/gutenberg_blocks_list.php:255
+msgid "Back"
+msgstr "Retour"
+
+#: inc/gutenberg_blocks_list.php:256
+msgid "This folder is empty."
+msgstr "Ce dossier est vide."
+
+#: inc/gutenberg_blocks_list.php:257
+msgid "How can we help you?"
+msgstr "Comment pouvons-nous vous aider ?"
+
+#: inc/gutenberg_blocks_list.php:259
+msgid "Search all documentation by keyword"
+msgstr "Rechercher toute la documentation par mot clé"
+
+#: inc/gutenberg_blocks_list.php:260
+msgid "No match found."
+msgstr "Aucune correspondance trouvée."
+
+#: inc/gutenberg_blocks_list.php:275
+msgid "List Compare"
+msgstr "Liste Comparaison"
+
+#: inc/gutenberg_blocks_list.php:286
+msgid "Custom text"
+msgstr "Texte personnalisé"
+
+#: inc/gutenberg_blocks_list.php:287
+msgid "Font-size"
+msgstr "Taille de police"
+
+#: inc/gutenberg_blocks_list.php:288
+msgid "Font weight"
+msgstr "Poids de police"
+
+#: inc/gutenberg_blocks_list.php:289
+msgid "Light"
+msgstr "Léger"
+
+#: inc/gutenberg_blocks_list.php:290
+msgid "Regular"
+msgstr "Régulier"
+
+#: inc/gutenberg_blocks_list.php:291
+msgid "Bold"
+msgstr "Gras"
+
+#: inc/gutenberg_blocks_list.php:292
+msgid "Bolder"
+msgstr "Plus gras"
+
+#: inc/gutenberg_blocks_list.php:293
+msgid "Text Hierarchy"
+msgstr "Hiérarchie de texte"
+
+#: inc/gutenberg_blocks_list.php:294
+msgid "Paragraph"
+msgstr "Paragraphe"
+
+#: inc/gutenberg_blocks_list.php:295
+msgid "Heading 1"
+msgstr "En-tête 1"
+
+#: inc/gutenberg_blocks_list.php:296
+msgid "Heading 2"
+msgstr "En-tête 2"
+
+#: inc/gutenberg_blocks_list.php:297
+msgid "Heading 3"
+msgstr "En-tête 3"
+
+#: inc/gutenberg_blocks_list.php:298
+msgid "Heading 4"
+msgstr "En-tête 4"
+
+#: inc/gutenberg_blocks_list.php:299
+msgid "Heading 5"
+msgstr "En-tête 5"
+
+#: inc/gutenberg_blocks_list.php:300
+msgid "Heading 6"
+msgstr "En-tête 6"
+
+#: inc/gutenberg_blocks_list.php:301
+msgid "Top spacing"
+msgstr "Espacement supérieur"
+
+#: inc/gutenberg_blocks_list.php:302
+msgid "Bottom spacing"
+msgstr "Espacement du fond"
+
+#: inc/gutenberg_blocks_list.php:303
+msgid "Text alignment"
+msgstr "Alignement du texte"
+
+#: inc/gutenberg_blocks_list.php:304
+msgid "Left"
+msgstr "Gauche"
+
+#: inc/gutenberg_blocks_list.php:305
+msgid "Center"
+msgstr "Centre"
+
+#: inc/gutenberg_blocks_list.php:306
+msgid "Right"
+msgstr "Droit"
+
+#: inc/gutenberg_blocks_list.php:307
+msgid "Responsive"
+msgstr "Adaptatif"
+
+#: inc/gutenberg_blocks_list.php:308
+msgid "If activated, the font size will reduce at phone size (768px)."
+msgstr ""
+"Si elle est activée, la taille de la police réduira à la taille du téléphone "
+"(768px)."
+
+#: inc/gutenberg_blocks_list.php:309
+msgid "Center on mobile"
+msgstr "Centre sur mobile"
+
+#: inc/gutenberg_blocks_list.php:310
+msgid "If activated, the text will center itself on mobile (768px)."
+msgstr "S’il est activé, le texte se centrera sur mobile (768px)."
+
+#: inc/gutenberg_blocks_list.php:311
+msgid "Line Height"
+msgstr "Hauteur de la ligne"
+
+#: inc/gutenberg_blocks_list.php:312
+msgid "Link's destination"
+msgstr "Destination du lien"
+
+#: inc/template-functions.php:90 template-parts/inc-enclosure-finder.php:12
+#: template-parts/inc-side-button.php:4
+msgid "Enclosure finder"
+msgstr "Recherche de boîtiers"
+
+#: inc/template-functions.php:313
+msgid "Site map"
+msgstr "Plan du site"
+
+#: inc/template-functions.php:316
+msgid "News"
+msgstr "Nouvelles"
+
+#: inc/template-functions.php:341
+msgid "No email address provided."
+msgstr "Aucune adresse e-mail fournie."
+
+#: inc/template-functions.php:348
+msgid "Email address is not valid."
+msgstr "L’adresse e-mail n’est pas valide."
+
+#: inc/template-functions.php:355
+msgid "In test mode, no email address is added."
+msgstr "En mode test, aucune adresse e-mail n’est ajoutée."
+
+#: inc/template-functions.php:405
+msgid "You are already registered, thank you."
+msgstr "Vous êtes déjà inscrit, merci."
+
+#: inc/template-functions.php:411
+msgid "An error has occurred. Please try again."
+msgstr "Une erreur s’est produite. S’il vous plaît, réessayez."
+
+#: inc/template-functions.php:417
+msgid "Your email address has been added. Thank you!"
+msgstr "Votre adresse e-mail a été ajoutée. Merci!"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publié le %s"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "par %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Publié dans %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Étiqueté sous %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+"Laisser un commentaire <span class = \"screen-reader-text\"> sur% s </span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Modifier <span class = \"screen-reader-text\">% s </span>"
+
+#: inc/woo_accountMenu.php:51
+msgid "My favorites"
+msgstr "Mes favoris"
+
+#: inc/woocommerce.php:263
+msgid "View your shopping cart"
+msgstr "Voir votre panier"
+
+#: inc/woocommerce.php:462
+msgid "Load more"
+msgstr "Voir plus"
+
+#: inc/woocommerce.php:496 inc/woocommerce.php:498
+msgid "Starting at "
+msgstr "À partir de "
+
+#: inc/woocommerce.php:501
+msgid "out of stock"
+msgstr "en rupture d’inventaire"
+
+#: inc/woocommerce.php:506 template-parts/inc-banner.php:34
+msgid "New"
+msgstr "Nouveau"
+
+#: inc/woocommerce.php:552
+msgid "/product-category/enclosures/"
+msgstr "/categorie-produit/boitiers-standards/"
+
+#: inc/woocommerce.php:612
+msgid "Please note that data is subject to change without notice."
+msgstr "Veuillez noter que les données peuvent être changées sans préavis."
+
+#: inc/woocommerce.php:640 inc/woocommerce.php:642
+msgid "Save for later"
+msgstr "Enregistrer pour plus tard"
+
+#: inc/woocommerce.php:664
+msgid "Available dimensions"
+msgstr "Dimensions disponibles"
+
+#: inc/woocommerce.php:668
+msgid "Catalog number"
+msgstr "Numéro de catalogue"
+
+#: inc/woocommerce.php:669 template-parts/inc-enclosure-finder.php:19
+msgid "Dimensions"
+msgstr "Dimensions"
+
+#: inc/woocommerce.php:670
+msgid "Ship weight"
+msgstr "Poids de livraison"
+
+#: inc/woocommerce.php:671
+msgid "Downloads"
+msgstr "Téléchargements"
+
+#: inc/woocommerce.php:680
+msgid "(lbs.)"
+msgstr "(lbs.)"
+
+#: inc/woocommerce.php:779 inc/woocommerce.php:819
+msgid "in stock"
+msgstr "en stock"
+
+#: inc/woocommerce.php:792
+msgid "Check availability for pick up"
+msgstr "Vérifiez la disponibilité pour la cueillette"
+
+#: inc/woocommerce.php:831
+msgid "Customize on BOXCAD"
+msgstr "Personnaliser sur BOXCAD"
+
+#: inc/woocommerce.php:842
+msgid "In Stock"
+msgstr "En stock"
+
+#: inc/woocommerce.php:921 template-parts/inc-enclosure-finder.php:19
+msgid "(height x width x depth)"
+msgstr "(hauteur x largeur x profondeur)"
+
+#: inc/woocommerce.php:948
+msgid "Which NEMA is right for you?"
+msgstr "Quel NEMA avez vous besoins?"
+
+#: inc/woocommerce.php:952
+msgid "Which IP is right for you?"
+msgstr "Quel IP avez vous besoins?"
+
+#: inc/woocommerce.php:970
+msgid "Price"
+msgstr "Prix"
+
+#: inc/woocommerce.php:973
+msgid "Subtotal"
+msgstr "Sous-total"
+
+#: inc/woocommerce.php:979
+msgid "View the full technical sheet"
+msgstr "Voir la feuille technique complète"
+
+#: inc/woocommerce.php:998
+msgid "Technical specifications"
+msgstr "Spécifications techniques"
+
+#: inc/woocommerce.php:1004 inc/woocommerce.php:1034
+msgid "Key included"
+msgstr "Clé incluse"
+
+#: inc/woocommerce.php:1005 inc/woocommerce.php:1045
+msgid "Key number"
+msgstr "Numéro de clé"
+
+#: inc/woocommerce.php:1157 template-parts/inc-enclosure-finder.php:30
+msgid "Choose"
+msgstr "Choisir"
+
+#. translators: %s: search query.
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de la recherche pour:% s"
+
+#: sidebar.php:16
+msgid "Filters"
+msgstr "Filtres"
+
+#: sidebar.php:16
+msgid "Clear all"
+msgstr "Effacer tout"
+
+#: sitemap.php:13
+msgid "Website map"
+msgstr "Plan du site"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Aucun résultat"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Êtes-vous prêts à publier votre première publication? <a href=\"%1$s"
+"\">Commencez ici</a>."
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Désolé, mais rien ne correspond à vos termes de recherche. Veuillez "
+"réessayer avec d'autres mots-clés."
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Il semble que nous ne trouvons pas ce que vous recherchez. Peut-être qu'une "
+"recherche peut vous aider."
+
+#: template-parts/content-page.php:24 template-parts/content.php:50
+msgid "Pages:"
+msgstr "Pages:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:39
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+"Continuer la lecture de <span class = \"screen-reader-text\"> \"% s\" </span>"
+
+#: template-parts/inc-banner.php:52
+msgid "Find the right"
+msgstr "Trouvez le bon"
+
+#: template-parts/inc-banner.php:56
+msgid "You are not familiar with our products?"
+msgstr "Vous n’êtes pas familier avec nos produits?"
+
+#: template-parts/inc-banner.php:57
+msgid "Open our enclosure finder"
+msgstr "Ouvrir la recherche de boîtiers."
+
+#: template-parts/inc-banner.php:62
+msgid "Search product name, dimension, catalog number etc."
+msgstr ""
+"Rechercher le nom du produit, la dimension, le numéro de catalogue, etc."
+
+#: template-parts/inc-enclosure-finder.php:11
+msgid "Close"
+msgstr "Fermer"
+
+#: template-parts/inc-enclosure-finder.php:28
+msgid "min"
+msgstr "min"
+
+#: template-parts/inc-enclosure-finder.php:41
+msgid "Select required degree of protection"
+msgstr "Sélectionnez le degré de protection requis"
+
+#: template-parts/inc-enclosure-finder.php:44
+msgid "Open ratings reference sheet"
+msgstr "Feuille de référence d’évaluation"
+
+#: template-parts/inc-enclosure-finder.php:64
+msgid "Select enclosure type"
+msgstr "Sélectionnez un type de boîtier"
+
+#: template-parts/inc-enclosure-finder.php:87
+msgid "Select enclosure material"
+msgstr "Sélectionnez le matériel du boîtier"
+
+#: template-parts/inc-enclosure-finder.php:108
+msgid "Find enclosure"
+msgstr "Trouver le boîtier"
+
+#: template-parts/inc-enclosure-finder.php:109
+msgid "Reset criterias"
+msgstr "Réinitialiser les critères"
+
+#: template-parts/inc-side-button.php:6
+msgid "Configure on BOXCAD"
+msgstr "Configurer sur BOXCAD"
+
+#: template-parts/inc-sociaux.php:3
+msgid "View our Facebook page"
+msgstr "Consultez notre page Facebook"
+
+#: template-parts/inc-sociaux.php:7
+msgid "View our Twitter page"
+msgstr "Consultez notre page Twitter"
+
+#: template-parts/inc-sociaux.php:11
+msgid "View our Linkedin page"
+msgstr "Consultez notre page Linkedin"
+
+#: template-parts/inc-sociaux.php:15
+msgid "View our Instagram page"
+msgstr "Consultez notre page Instagram"
+
+#: template-parts/inc-sociaux.php:19
+msgid "View our Youtube page"
+msgstr "Consultez notre page Youtube"
+
+#: template-parts/inc-sociaux.php:23
+msgid "View our Snapchat page"
+msgstr "Consultez notre page Snapchat"
+
+#: woocommerce/myaccount/mes-favoris.php:26
+#, php-format
+msgid ""
+"You have no favorites at the moment,  <a class=\"button\" href=\"%s\">check "
+"out shop now</a>"
+msgstr ""
+"Vous n’avez pas de favoris en ce  moment,<a class=\"button\" href=\"%s\"> "
+"consultez la boutique maintenant</a>"
+
+#: woocommerce/single-product/add-to-cart/variable.php:36
+msgid "This product is currently out of stock and unavailable."
+msgstr "Ce produit est actuellement indisponible."
+
+#: woocommerce/single-product/add-to-cart/variable.php:67
+msgid "Clear"
+msgstr "Vider"
+
+#. Theme Name of the plugin/theme
+msgid "theme-client"
+msgstr "theme-client"
+
+#. Theme URI of the plugin/theme
+msgid "https://[domain client]/"
+msgstr "https://[domain client]/"
+
+#. Description of the plugin/theme
+msgid "Thème WordPress sur mesure pour CLIENT"
+msgstr "Thème WordPress sur mesure pour CLIENT"
+
+#. Author of the plugin/theme
+msgid "Codems"
+msgstr "Codems"
+
+#. Author URI of the plugin/theme
+msgid "https://www.codems.ca"
+msgstr "https://www.codems.ca"
+
+#~ msgid "Yes"
+#~ msgstr "Oui"
+
+#~ msgid "No"
+#~ msgstr "Non"
+
+#~ msgid "with "
+#~ msgstr "avec "
+
+#~ msgid "Addon"
+#~ msgstr "Ajout"
+
+#~ msgid "knowledge Base"
+#~ msgstr "base de connaissances"
+
+#~ msgid "Knowledge base"
+#~ msgstr "Base de connaissances"
+
+#~ msgid ""
+#~ "It looks like nothing was found at this location. Maybe try one of the "
+#~ "links below or a search?"
+#~ msgstr ""
+#~ "Il semble que rien n'a été trouvé à cet endroit. Peut-être essayez l'un "
+#~ "des liens ci-dessous ou une recherche?"
+
+#~ msgid "Most Used Categories"
+#~ msgstr "Catégories les plus utilisées"
+
+#, php-format
+#~ msgid "Try looking in the monthly archives. %1$s"
+#~ msgstr "Essayez de regarder dans les archives mensuelles .%1$s"
+
+#~ msgid "Standart enclosure"
+#~ msgstr "Enceinte Standart"
+
+#~ msgid "Accessories"
+#~ msgstr "Accessoires"
+
+#~ msgid "About our configurator"
+#~ msgstr "À propos de notre configurateur"
+
+#~ msgid "About EXM"
+#~ msgstr "À propos d’EXM"
+
+#~ msgid "Job openings"
+#~ msgstr "Offres d’emploi"
+
+#~ msgid "Returns"
+#~ msgstr "Retours"
+
+#~ msgid "Privacy policy"
+#~ msgstr "Politique de confidentialité"
+
+#~ msgid "Terms & Conditions"
+#~ msgstr "Conditions d’utilisation"
+
+#~ msgid "Display a list of dimensions to filter products in your store."
+#~ msgstr ""
+#~ "Affichez une liste de dimensions pour filtrer les produits dans votre "
+#~ "magasin."
+
+#~ msgid "Filter Products by Dimensions"
+#~ msgstr "Filtrer les produits par dimensions"
+
+#~ msgid "Query type"
+#~ msgstr "Type de requête"
+
+#~ msgid "AND"
+#~ msgstr "ET"
+
+#~ msgid "OR"
+#~ msgstr "OU"
+
+#~ msgid "Menu icon "
+#~ msgstr "Icône de menu "
+
+#, php-format
+#~ msgid "%d item"
+#~ msgid_plural "%d items"
+#~ msgstr[0] "%d item"
+#~ msgstr[1] "%d items"
+
+#~ msgid "View Codems's Website"
+#~ msgstr "Voir le site web de Codems"
+
+#~ msgid "Web design"
+#~ msgstr "Conception web"
+
+#~ msgid "Primary Menu"
+#~ msgstr "Menu principal"

@@ -1,0 +1,53 @@
+
+$default_secondary_color: #000; // utilisé pour styler les liens dans le init
+$default_main_color: #FFF; // Utilisé couleur des liens en hover dans le init
+
+// settup des couleurs pour guttenberg (il faut mettre les mêmes valeurs dans la fonctione php)
+$color_block_palet1 : #ffffff;
+$color_block_palet2 : #000000;
+$color_block_palet3 :#E30613;
+$color_block_palet4 : #42A1FF;
+$color_block_palet5 : #1739E6;
+$color_block_palet6 : #F2F0F0;  
+$color_block_palet6_dark : darken($color_block_palet6,30%);  
+$color_block_palet7 : #999694;
+$color_block_palet8 : #00b377;
+
+$colors: (
+	1 : $color_block_palet1,
+	2 : $color_block_palet2,
+	3 : $color_block_palet3,
+	4 : $color_block_palet4,
+	5 : $color_block_palet5,
+	6 : $color_block_palet6,
+	7 : $color_block_palet7,
+	8 : $color_block_palet8
+);
+
+
+$color__background-body: #fff; // couleur du body
+$color__background-screen: #f1f1f1; // background-color on focus pour la .screen-reader-text
+$color__background-hr: #ccc; // background-color hr
+$color__background-pre: #eee; // background-color pre
+$color__background-ins: #fff9c0; // background pour mark et ins
+
+$color__text-screen: #21759b; // color de .screen-reader-text on focus
+$color__text-input: #666; // color de tous les input
+$color__text-input-focus: #111; // color de tous les input on focus
+$color__link: $color_block_palet2; // color link // sert aussi pour les étoiles WC et le background de .ui-slider-range
+$color__link-visited: $color_block_palet2; // color link on visited
+$color__link-hover: $color_block_palet3; // color link on hover/active/focus 
+$color__text-main: $color_block_palet2; // color de body, input, select, optgroup, textarea
+
+$color__background-button: #000; // background-color de button, input button, input reset, input submit
+$color__background-button-hover: transparent; // background-color au hover de button, input button, input reset, input submit
+$color__border-button: #000; // color des button, input button reset submit
+$color__border-button-hover: #000; // color hover des button, input button reset submit
+$color__border-button-focus: #aaa #bbb #bbb; // color button on focus et active
+$color__border-input: #ccc; // couleur de la bordure des inputs 
+$color__border-abbr: #666; // couleur de la border-bottom des abbr, acronym
+
+$color__select_arrow : str-slice(#{$color__text-input}, 2); // Couleur de la flèche des select.
+
+$bk_mobile: 768px;
+$breakpointMenu: 880px;

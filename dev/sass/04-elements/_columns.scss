@@ -1,0 +1,27 @@
+body .wp-block-columns.column-bordered {
+	border-top: 1px solid $color_block_palet2;
+	border-bottom: 1px solid $color_block_palet2;
+	padding:0;
+	.wp-block-column{
+		margin:0;
+		padding: 4rem 3rem ;
+
+	}
+	.wp-block-column:not(:last-child){
+		border-right: 1px solid $color_block_palet2;
+		 
+	}
+
+	
+
+
+	@include media-screen(){
+		.wp-block-column:not(:last-child){
+			border-right: none;
+			border-bottom: 1px solid $color_block_palet2;
+			
+		}
+	}
+	
+	
+}

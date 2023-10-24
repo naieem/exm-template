@@ -1,0 +1,92 @@
+.side-button {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: rotate(270deg);
+	z-index: 1;
+    @include media-screen($bk_mobile){
+        top: inherit;
+        transform: none;
+        bottom: 10rem;
+    }
+    &.finder{
+        right: calc(-90px + 18px);
+        color: $color_block_palet2!important;
+        background-color: $color_block_palet1;
+        border: 2px solid $color_block_palet2 ;
+        border-bottom:none;
+        padding: 10px 10px;
+        border-radius: 5px 5px 0 0px;
+        width: 180px;
+        font-weight: 700;
+        transition: background-color 0.25s, color 0.25s;
+        i{
+            transition:  color 0.25s;
+        }
+        @include media-screen(769px,min){
+            &.fr {
+                width: 270px;
+                right: -117px;
+            }
+        }
+        &:hover{
+            background-color: $color_block_palet2;
+            color:$color_block_palet1!important;
+            i{
+                color:$color_block_palet1;
+            }
+
+        }
+        @include media-screen($bk_mobile){
+            font-size: 0;
+            right: 2rem;
+            border-radius: 50%;
+            width: 60px;
+            border-bottom: 2px solid $color_block_palet2;;
+            height: 60px;
+            i{
+                font-size: 32px;
+            }
+        }
+    }
+    &.boxcad {
+       box-shadow: 0 2px 5px #00000033;
+        display: block;
+        text-decoration: none;
+        width: 240px;
+        text-align: center;
+        padding: 10px 10px;
+        right: calc(-120px + 18px);
+        background-color:$color_block_palet5 ;
+        color: $color_block_palet1;
+        border-radius: 5px 5px 0 0px;
+
+        font-weight: 700;
+        border: 2px solid $color_block_palet5 ;
+        transition: background-color 0.25s, color 0.25s;
+        i{
+            transition:  color 0.25s;
+        }
+        &:hover{
+            background-color: lighten($color_block_palet5,10%);
+
+        }
+        @include media-screen($bk_mobile){
+            z-index: 80;
+            font-size: 0;
+            right: 2rem;
+            border-radius: 50%;
+            width: 60px;
+            border-bottom: 2px solid $color_block_palet5;;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i{
+                font-size: 32px;
+                font-weight: 500;
+
+            }
+        }
+    }
+}

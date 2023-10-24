@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue-Light.woff2") format("woff2"), url("../fonts/HelveticaNeue-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue-Medium.woff2") format("woff2"), url("../fonts/HelveticaNeue-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue-Bold.woff2") format("woff2"), url("../fonts/HelveticaNeue-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeueRegular.woff2") format("woff2"), url("../fonts/HelveticaNeueRegular.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue-Thin.woff2") format("woff2"), url("../fonts/HelveticaNeue-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue-Italic.woff2") format("woff2"), url("../fonts/HelveticaNeue-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue.woff2") format("woff2"), url("../fonts/HelveticaNeue.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+.image-slider {
+  position: relative; }
+  .image-slider .tns-controls button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 8rem;
+    font-size: 2.4rem;
+    z-index: 1;
+    transition: background-color .3s, color .3s; }
+    .image-slider .tns-controls button:hover {
+      background-color: white;
+      color: #000; }
+    @media only screen and (max-width: 76.8em) {
+      .image-slider .tns-controls button {
+        width: 4rem;
+        height: 4rem;
+        font-size: 1.2rem; } }
+  .image-slider .tns-controls [data-controls="prev"] {
+    left: 0; }
+  .image-slider .tns-controls [data-controls="next"] {
+    right: 0; }
+  .image-slider .slide {
+    position: relative; }
+    .image-slider .slide figure {
+      margin: 0;
+      line-height: 0;
+      position: relative; }
+      .image-slider .slide figure:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #000;
+        opacity: 0.5;
+        z-index: 1; }
+  .image-slider .content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    z-index: 1; }
+    .image-slider .content h1 {
+      color: #ffffff;
+      font-size: 20px; }
+      @media screen and (min-width: 320px) {
+        .image-slider .content h1 {
+          font-size: calc(20px + 60 * ((100vw - 320px) / 880)); } }
+      @media screen and (min-width: 1200px) {
+        .image-slider .content h1 {
+          font-size: 80px; } }

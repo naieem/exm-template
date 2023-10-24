@@ -1,0 +1,487 @@
+.editor-styles-wrapper p.fs-14,
+.editor-styles-wrapper h1.fs-14,
+.editor-styles-wrapper h2.fs-14,
+.editor-styles-wrapper h3.fs-14,
+.editor-styles-wrapper h4.fs-14,
+.editor-styles-wrapper h5.fs-14,
+.editor-styles-wrapper h6.fs-14,
+p.fs-14, h1.fs-14, h2.fs-14, h3.fs-14, h4.fs-14, h5.fs-14, h6.fs-14 {
+  font-size: 14px; }
+  @media screen and (max-width: 768px) {
+    .editor-styles-wrapper p.fs-14.t-responsive,
+    .editor-styles-wrapper h1.fs-14.t-responsive,
+    .editor-styles-wrapper h2.fs-14.t-responsive,
+    .editor-styles-wrapper h3.fs-14.t-responsive,
+    .editor-styles-wrapper h4.fs-14.t-responsive,
+    .editor-styles-wrapper h5.fs-14.t-responsive,
+    .editor-styles-wrapper h6.fs-14.t-responsive,
+    p.fs-14.t-responsive, h1.fs-14.t-responsive, h2.fs-14.t-responsive, h3.fs-14.t-responsive, h4.fs-14.t-responsive, h5.fs-14.t-responsive, h6.fs-14.t-responsive {
+      font-size: calc(14px * 0.75 ); } }
+  @media screen and (max-width: 768px) {
+    .editor-styles-wrapper p.fs-14.c-responsive,
+    .editor-styles-wrapper h1.fs-14.c-responsive,
+    .editor-styles-wrapper h2.fs-14.c-responsive,
+    .editor-styles-wrapper h3.fs-14.c-responsive,
+    .editor-styles-wrapper h4.fs-14.c-responsive,
+    .editor-styles-wrapper h5.fs-14.c-responsive,
+    .editor-styles-wrapper h6.fs-14.c-responsive,
+    p.fs-14.c-responsive, h1.fs-14.c-responsive, h2.fs-14.c-responsive, h3.fs-14.c-responsive, h4.fs-14.c-responsive, h5.fs-14.c-responsive, h6.fs-14.c-responsive {
+      text-align: center; } }
+.editor-styles-wrapper p.fs-16,
+.editor-styles-wrapper h1.fs-16,
+.editor-styles-wrapper h2.fs-16,
+.editor-styles-wrapper h3.fs-16,
+.editor-styles-wrapper h4.fs-16,
+.editor-styles-wrapper h5.fs-16,
+.editor-styles-wrapper h6.fs-16,
+p.fs-16, h1.fs-16, h2.fs-16, h3.fs-16, h4.fs-16, h5.fs-16, h6.fs-16 {
+  font-size: 16px; }
+  @media screen and (max-width: 768px) {
+    .editor-styles-wrapper p.fs-16.t-responsive,
+    .editor-styles-wrapper h1.fs-16.t-responsive,
+    .editor-styles-wrapper h2.fs-16.t-responsive,
+    .editor-styles-wrapper h3.fs-16.t-responsive,
+    .editor-styles-wrapper h4.fs-16.t-responsive,
+    .editor-styles-wrapper h5.fs-16.t-responsive,
+    .editor-styles-wrapper h6.fs-16.t-responsive,
+    p.fs-16.t-responsive, h1.fs-16.t-responsive, h2.fs-16.t-responsive, h3.fs-16.t-responsive, h4.fs-16.t-responsive, h5.fs-16.t-responsive, h6.fs-16.t-responsive {
+      font-size: calc(16px * 0.75 ); } }
+  @media screen and (max-width: 768px) {
+    .editor-styles-wrapper p.fs-16.c-responsive,
+    .editor-styles-wrapper h1.fs-16.c-responsive,
+    .editor-styles-wrapper h2.fs-16.c-responsive,
+    .editor-styles-wrapper h3.fs-16.c-responsive,
+    .editor-styles-wrapper h4.fs-16.c-responsive,
+    .editor-styles-wrapper h5.fs-16.c-responsive,
+    .editor-styles-wrapper h6.fs-16.c-responsive,
+    p.fs-16.c-responsive, h1.fs-16.c-responsive, h2.fs-16.c-responsive, h3.fs-16.c-responsive, h4.fs-16.c-responsive, h5.fs-16.c-responsive, h6.fs-16.c-responsive {
+      text-align: center; } }
+.editor-styles-wrapper p.fs-18,
+.editor-styles-wrapper h1.fs-18,
+.editor-styles-wrapper h2.fs-18,
+.editor-styles-wrapper h3.fs-18,
+.editor-styles-wrapper h4.fs-18,
+.editor-styles-wrapper h5.fs-18,
+.editor-styles-wrapper h6.fs-18,
+p.fs-18, h1.fs-18, h2.fs-18, h3.fs-18, h4.fs-18, h5.fs-18, h6.fs-18 {
+  font-size: 18px; }
+  @media screen and (max-width: 768px) {
+    .editor-styles-wrapper p.fs-18.t-responsive,
+    .editor-styles-wrapper h1.fs-18.t-responsive,
+    .editor-styles-wrapper h2.fs-18.t-responsive,
+    .editor-styles-wrapper h3.fs-18.t-responsive,
+    .editor-styles-wrapper h4.fs-18.t-responsive,
+    .editor-styles-wrapper h5.fs-18.t-responsive,
+    .editor-styles-wrapper h6.fs-18.t-responsive,
+    p.fs-18.t-responsive, h1.fs-18.t-responsive, h2.fs-18.t-responsive, h3.fs-18.t-responsive, h4.fs-18.t-responsive, h5.fs-18.t-responsive, h6.fs-18.t-responsive {
+      font-size: calc(18px * 0.75 ); } }
+  @media screen and (max-width: 768px) {
+    .editor-styles-wrapper p.fs-18.c-responsive,
+    .editor-styles-wrapper h1.fs-18.c-responsive,
+    .editor-styles-wrapper h2.fs-18.c-responsive,
+    .editor-styles-wrapper h3.fs-18.c-responsive,
+    .editor-styles-wrapper h4.fs-18.c-responsive,
+    .editor-styles-wrapper h5.fs-18.c-responsive,
+    .editor-styles-wrapper h6.fs-18.c-responsive,
+    p.fs-18.c-responsive, h1.fs-18.c-responsive, h2.fs-18.c-responsive, h3.fs-18.c-responsive, h4.fs-18.c-responsive, h5.fs-18.c-responsive, h6.fs-18.c-responsive {
+      text-align: center; } }
+.editor-styles-wrapper p.fs-20,
+.editor-styles-wrapper h1.fs-20,
+.editor-styles-wrapper h2.fs-20,
+.editor-styles-wrapper h3.fs-20,
+.editor-styles-wrapper h4.fs-20,
+.editor-styles-wrapper h5.fs-20,
+.editor-styles-wrapper h6.fs-20,
+p.fs-20, h1.fs-20, h2.fs-20, h3.fs-20, h4.fs-20, h5.fs-20, h6.fs-20 {
+  font-size: 20px; }
+  @media screen and (max-width: 768px) {
+    .editor-styles-wrapper p.fs-20.t-responsive,
+    .editor-styles-wrapper h1.fs-20.t-responsive,
+    .editor-styles-wrapper h2.fs-20.t-responsive,
+    .editor-styles-wrapper h3.fs-20.t-responsive,
+    .editor-styles-wrapper h4.fs-20.t-responsive,
+    .editor-styles-wrapper h5.fs-20.t-responsive,
+    .editor-styles-wrapper h6.fs-20.t-responsive,
+    p.fs-20.t-responsive, h1.fs-20.t-responsive, h2.fs-20.t-responsive, h3.fs-20.t-responsive, h4.fs-20.t-responsive, h5.fs-20.t-responsive, h6.fs-20.t-responsive {
+      font-size: calc(20px * 0.75 ); } }
+  @media screen and (max-width: 768px) {
+    .editor-styles-wrapper p.fs-20.c-responsive,
+    .editor-styles-wrapper h1.fs-20.c-responsive,
+    .editor-styles-wrapper h2.fs-20.c-responsive,
+    .editor-styles-wrapper h3.fs-20.c-responsive,
+    .editor-styles-wrapper h4.fs-20.c-responsive,
+    .editor-styles-wrapper h5.fs-20.c-responsive,
+    .editor-styles-wrapper h6.fs-20.c-responsive,
+    p.fs-20.c-responsive, h1.fs-20.c-responsive, h2.fs-20.c-responsive, h3.fs-20.c-responsive, h4.fs-20.c-responsive, h5.fs-20.c-responsive, h6.fs-20.c-responsive {
+      text-align: center; } }
+.editor-styles-wrapper p.fs-36,
+.editor-styles-wrapper h1.fs-36,
+.editor-styles-wrapper h2.fs-36,
+.editor-styles-wrapper h3.fs-36,
+.editor-styles-wrapper h4.fs-36,
+.editor-styles-wrapper h5.fs-36,
+.editor-styles-wrapper h6.fs-36,
+p.fs-36, h1.fs-36, h2.fs-36, h3.fs-36, h4.fs-36, h5.fs-36, h6.fs-36 {
+  font-size: 36px; }
+  @media screen and (max-width: 768px) {
+    .editor-styles-wrapper p.fs-36.t-responsive,
+    .editor-styles-wrapper h1.fs-36.t-responsive,
+    .editor-styles-wrapper h2.fs-36.t-responsive,
+    .editor-styles-wrapper h3.fs-36.t-responsive,
+    .editor-styles-wrapper h4.fs-36.t-responsive,
+    .editor-styles-wrapper h5.fs-36.t-responsive,
+    .editor-styles-wrapper h6.fs-36.t-responsive,
+    p.fs-36.t-responsive, h1.fs-36.t-responsive, h2.fs-36.t-responsive, h3.fs-36.t-responsive, h4.fs-36.t-responsive, h5.fs-36.t-responsive, h6.fs-36.t-responsive {
+      font-size: calc(36px * 0.75 ); } }
+  @media screen and (max-width: 768px) {
+    .editor-styles-wrapper p.fs-36.c-responsive,
+    .editor-styles-wrapper h1.fs-36.c-responsive,
+    .editor-styles-wrapper h2.fs-36.c-responsive,
+    .editor-styles-wrapper h3.fs-36.c-responsive,
+    .editor-styles-wrapper h4.fs-36.c-responsive,
+    .editor-styles-wrapper h5.fs-36.c-responsive,
+    .editor-styles-wrapper h6.fs-36.c-responsive,
+    p.fs-36.c-responsive, h1.fs-36.c-responsive, h2.fs-36.c-responsive, h3.fs-36.c-responsive, h4.fs-36.c-responsive, h5.fs-36.c-responsive, h6.fs-36.c-responsive {
+      text-align: center; } }
+.editor-styles-wrapper p.fs-40,
+.editor-styles-wrapper h1.fs-40,
+.editor-styles-wrapper h2.fs-40,
+.editor-styles-wrapper h3.fs-40,
+.editor-styles-wrapper h4.fs-40,
+.editor-styles-wrapper h5.fs-40,
+.editor-styles-wrapper h6.fs-40,
+p.fs-40, h1.fs-40, h2.fs-40, h3.fs-40, h4.fs-40, h5.fs-40, h6.fs-40 {
+  font-size: 40px; }
+  @media screen and (max-width: 768px) {
+    .editor-styles-wrapper p.fs-40.t-responsive,
+    .editor-styles-wrapper h1.fs-40.t-responsive,
+    .editor-styles-wrapper h2.fs-40.t-responsive,
+    .editor-styles-wrapper h3.fs-40.t-responsive,
+    .editor-styles-wrapper h4.fs-40.t-responsive,
+    .editor-styles-wrapper h5.fs-40.t-responsive,
+    .editor-styles-wrapper h6.fs-40.t-responsive,
+    p.fs-40.t-responsive, h1.fs-40.t-responsive, h2.fs-40.t-responsive, h3.fs-40.t-responsive, h4.fs-40.t-responsive, h5.fs-40.t-responsive, h6.fs-40.t-responsive {
+      font-size: calc(40px * 0.75 ); } }
+  @media screen and (max-width: 768px) {
+    .editor-styles-wrapper p.fs-40.c-responsive,
+    .editor-styles-wrapper h1.fs-40.c-responsive,
+    .editor-styles-wrapper h2.fs-40.c-responsive,
+    .editor-styles-wrapper h3.fs-40.c-responsive,
+    .editor-styles-wrapper h4.fs-40.c-responsive,
+    .editor-styles-wrapper h5.fs-40.c-responsive,
+    .editor-styles-wrapper h6.fs-40.c-responsive,
+    p.fs-40.c-responsive, h1.fs-40.c-responsive, h2.fs-40.c-responsive, h3.fs-40.c-responsive, h4.fs-40.c-responsive, h5.fs-40.c-responsive, h6.fs-40.c-responsive {
+      text-align: center; } }
+.editor-styles-wrapper p.fs-70,
+.editor-styles-wrapper h1.fs-70,
+.editor-styles-wrapper h2.fs-70,
+.editor-styles-wrapper h3.fs-70,
+.editor-styles-wrapper h4.fs-70,
+.editor-styles-wrapper h5.fs-70,
+.editor-styles-wrapper h6.fs-70,
+p.fs-70, h1.fs-70, h2.fs-70, h3.fs-70, h4.fs-70, h5.fs-70, h6.fs-70 {
+  font-size: 70px; }
+  @media screen and (max-width: 768px) {
+    .editor-styles-wrapper p.fs-70.t-responsive,
+    .editor-styles-wrapper h1.fs-70.t-responsive,
+    .editor-styles-wrapper h2.fs-70.t-responsive,
+    .editor-styles-wrapper h3.fs-70.t-responsive,
+    .editor-styles-wrapper h4.fs-70.t-responsive,
+    .editor-styles-wrapper h5.fs-70.t-responsive,
+    .editor-styles-wrapper h6.fs-70.t-responsive,
+    p.fs-70.t-responsive, h1.fs-70.t-responsive, h2.fs-70.t-responsive, h3.fs-70.t-responsive, h4.fs-70.t-responsive, h5.fs-70.t-responsive, h6.fs-70.t-responsive {
+      font-size: calc(70px * 0.75 ); } }
+  @media screen and (max-width: 768px) {
+    .editor-styles-wrapper p.fs-70.c-responsive,
+    .editor-styles-wrapper h1.fs-70.c-responsive,
+    .editor-styles-wrapper h2.fs-70.c-responsive,
+    .editor-styles-wrapper h3.fs-70.c-responsive,
+    .editor-styles-wrapper h4.fs-70.c-responsive,
+    .editor-styles-wrapper h5.fs-70.c-responsive,
+    .editor-styles-wrapper h6.fs-70.c-responsive,
+    p.fs-70.c-responsive, h1.fs-70.c-responsive, h2.fs-70.c-responsive, h3.fs-70.c-responsive, h4.fs-70.c-responsive, h5.fs-70.c-responsive, h6.fs-70.c-responsive {
+      text-align: center; } }
+.editor-styles-wrapper p.fw-lighter,
+.editor-styles-wrapper h1.fw-lighter,
+.editor-styles-wrapper h2.fw-lighter,
+.editor-styles-wrapper h3.fw-lighter,
+.editor-styles-wrapper h4.fw-lighter,
+.editor-styles-wrapper h5.fw-lighter,
+.editor-styles-wrapper h6.fw-lighter,
+p.fw-lighter, h1.fw-lighter, h2.fw-lighter, h3.fw-lighter, h4.fw-lighter, h5.fw-lighter, h6.fw-lighter {
+  font-weight: lighter; }
+.editor-styles-wrapper p.fw-normal,
+.editor-styles-wrapper h1.fw-normal,
+.editor-styles-wrapper h2.fw-normal,
+.editor-styles-wrapper h3.fw-normal,
+.editor-styles-wrapper h4.fw-normal,
+.editor-styles-wrapper h5.fw-normal,
+.editor-styles-wrapper h6.fw-normal,
+p.fw-normal, h1.fw-normal, h2.fw-normal, h3.fw-normal, h4.fw-normal, h5.fw-normal, h6.fw-normal {
+  font-weight: normal; }
+.editor-styles-wrapper p.fw-bold,
+.editor-styles-wrapper h1.fw-bold,
+.editor-styles-wrapper h2.fw-bold,
+.editor-styles-wrapper h3.fw-bold,
+.editor-styles-wrapper h4.fw-bold,
+.editor-styles-wrapper h5.fw-bold,
+.editor-styles-wrapper h6.fw-bold,
+p.fw-bold, h1.fw-bold, h2.fw-bold, h3.fw-bold, h4.fw-bold, h5.fw-bold, h6.fw-bold {
+  font-weight: bold; }
+.editor-styles-wrapper p.fw-bolder,
+.editor-styles-wrapper h1.fw-bolder,
+.editor-styles-wrapper h2.fw-bolder,
+.editor-styles-wrapper h3.fw-bolder,
+.editor-styles-wrapper h4.fw-bolder,
+.editor-styles-wrapper h5.fw-bolder,
+.editor-styles-wrapper h6.fw-bolder,
+p.fw-bolder, h1.fw-bolder, h2.fw-bolder, h3.fw-bolder, h4.fw-bolder, h5.fw-bolder, h6.fw-bolder {
+  font-weight: bolder; }
+.editor-styles-wrapper p.s-t-0,
+.editor-styles-wrapper h1.s-t-0,
+.editor-styles-wrapper h2.s-t-0,
+.editor-styles-wrapper h3.s-t-0,
+.editor-styles-wrapper h4.s-t-0,
+.editor-styles-wrapper h5.s-t-0,
+.editor-styles-wrapper h6.s-t-0,
+p.s-t-0, h1.s-t-0, h2.s-t-0, h3.s-t-0, h4.s-t-0, h5.s-t-0, h6.s-t-0 {
+  margin-top: 0px; }
+.editor-styles-wrapper p.s-b-0,
+.editor-styles-wrapper h1.s-b-0,
+.editor-styles-wrapper h2.s-b-0,
+.editor-styles-wrapper h3.s-b-0,
+.editor-styles-wrapper h4.s-b-0,
+.editor-styles-wrapper h5.s-b-0,
+.editor-styles-wrapper h6.s-b-0,
+p.s-b-0, h1.s-b-0, h2.s-b-0, h3.s-b-0, h4.s-b-0, h5.s-b-0, h6.s-b-0 {
+  margin-bottom: 0px; }
+.editor-styles-wrapper p.s-t-5,
+.editor-styles-wrapper h1.s-t-5,
+.editor-styles-wrapper h2.s-t-5,
+.editor-styles-wrapper h3.s-t-5,
+.editor-styles-wrapper h4.s-t-5,
+.editor-styles-wrapper h5.s-t-5,
+.editor-styles-wrapper h6.s-t-5,
+p.s-t-5, h1.s-t-5, h2.s-t-5, h3.s-t-5, h4.s-t-5, h5.s-t-5, h6.s-t-5 {
+  margin-top: 5px; }
+.editor-styles-wrapper p.s-b-5,
+.editor-styles-wrapper h1.s-b-5,
+.editor-styles-wrapper h2.s-b-5,
+.editor-styles-wrapper h3.s-b-5,
+.editor-styles-wrapper h4.s-b-5,
+.editor-styles-wrapper h5.s-b-5,
+.editor-styles-wrapper h6.s-b-5,
+p.s-b-5, h1.s-b-5, h2.s-b-5, h3.s-b-5, h4.s-b-5, h5.s-b-5, h6.s-b-5 {
+  margin-bottom: 5px; }
+.editor-styles-wrapper p.s-t-10,
+.editor-styles-wrapper h1.s-t-10,
+.editor-styles-wrapper h2.s-t-10,
+.editor-styles-wrapper h3.s-t-10,
+.editor-styles-wrapper h4.s-t-10,
+.editor-styles-wrapper h5.s-t-10,
+.editor-styles-wrapper h6.s-t-10,
+p.s-t-10, h1.s-t-10, h2.s-t-10, h3.s-t-10, h4.s-t-10, h5.s-t-10, h6.s-t-10 {
+  margin-top: 10px; }
+.editor-styles-wrapper p.s-b-10,
+.editor-styles-wrapper h1.s-b-10,
+.editor-styles-wrapper h2.s-b-10,
+.editor-styles-wrapper h3.s-b-10,
+.editor-styles-wrapper h4.s-b-10,
+.editor-styles-wrapper h5.s-b-10,
+.editor-styles-wrapper h6.s-b-10,
+p.s-b-10, h1.s-b-10, h2.s-b-10, h3.s-b-10, h4.s-b-10, h5.s-b-10, h6.s-b-10 {
+  margin-bottom: 10px; }
+.editor-styles-wrapper p.s-t-15,
+.editor-styles-wrapper h1.s-t-15,
+.editor-styles-wrapper h2.s-t-15,
+.editor-styles-wrapper h3.s-t-15,
+.editor-styles-wrapper h4.s-t-15,
+.editor-styles-wrapper h5.s-t-15,
+.editor-styles-wrapper h6.s-t-15,
+p.s-t-15, h1.s-t-15, h2.s-t-15, h3.s-t-15, h4.s-t-15, h5.s-t-15, h6.s-t-15 {
+  margin-top: 15px; }
+.editor-styles-wrapper p.s-b-15,
+.editor-styles-wrapper h1.s-b-15,
+.editor-styles-wrapper h2.s-b-15,
+.editor-styles-wrapper h3.s-b-15,
+.editor-styles-wrapper h4.s-b-15,
+.editor-styles-wrapper h5.s-b-15,
+.editor-styles-wrapper h6.s-b-15,
+p.s-b-15, h1.s-b-15, h2.s-b-15, h3.s-b-15, h4.s-b-15, h5.s-b-15, h6.s-b-15 {
+  margin-bottom: 15px; }
+.editor-styles-wrapper p.s-t-20,
+.editor-styles-wrapper h1.s-t-20,
+.editor-styles-wrapper h2.s-t-20,
+.editor-styles-wrapper h3.s-t-20,
+.editor-styles-wrapper h4.s-t-20,
+.editor-styles-wrapper h5.s-t-20,
+.editor-styles-wrapper h6.s-t-20,
+p.s-t-20, h1.s-t-20, h2.s-t-20, h3.s-t-20, h4.s-t-20, h5.s-t-20, h6.s-t-20 {
+  margin-top: 20px; }
+.editor-styles-wrapper p.s-b-20,
+.editor-styles-wrapper h1.s-b-20,
+.editor-styles-wrapper h2.s-b-20,
+.editor-styles-wrapper h3.s-b-20,
+.editor-styles-wrapper h4.s-b-20,
+.editor-styles-wrapper h5.s-b-20,
+.editor-styles-wrapper h6.s-b-20,
+p.s-b-20, h1.s-b-20, h2.s-b-20, h3.s-b-20, h4.s-b-20, h5.s-b-20, h6.s-b-20 {
+  margin-bottom: 20px; }
+.editor-styles-wrapper p.s-t-30,
+.editor-styles-wrapper h1.s-t-30,
+.editor-styles-wrapper h2.s-t-30,
+.editor-styles-wrapper h3.s-t-30,
+.editor-styles-wrapper h4.s-t-30,
+.editor-styles-wrapper h5.s-t-30,
+.editor-styles-wrapper h6.s-t-30,
+p.s-t-30, h1.s-t-30, h2.s-t-30, h3.s-t-30, h4.s-t-30, h5.s-t-30, h6.s-t-30 {
+  margin-top: 30px; }
+.editor-styles-wrapper p.s-b-30,
+.editor-styles-wrapper h1.s-b-30,
+.editor-styles-wrapper h2.s-b-30,
+.editor-styles-wrapper h3.s-b-30,
+.editor-styles-wrapper h4.s-b-30,
+.editor-styles-wrapper h5.s-b-30,
+.editor-styles-wrapper h6.s-b-30,
+p.s-b-30, h1.s-b-30, h2.s-b-30, h3.s-b-30, h4.s-b-30, h5.s-b-30, h6.s-b-30 {
+  margin-bottom: 30px; }
+.editor-styles-wrapper p.s-t-40,
+.editor-styles-wrapper h1.s-t-40,
+.editor-styles-wrapper h2.s-t-40,
+.editor-styles-wrapper h3.s-t-40,
+.editor-styles-wrapper h4.s-t-40,
+.editor-styles-wrapper h5.s-t-40,
+.editor-styles-wrapper h6.s-t-40,
+p.s-t-40, h1.s-t-40, h2.s-t-40, h3.s-t-40, h4.s-t-40, h5.s-t-40, h6.s-t-40 {
+  margin-top: 40px; }
+.editor-styles-wrapper p.s-b-40,
+.editor-styles-wrapper h1.s-b-40,
+.editor-styles-wrapper h2.s-b-40,
+.editor-styles-wrapper h3.s-b-40,
+.editor-styles-wrapper h4.s-b-40,
+.editor-styles-wrapper h5.s-b-40,
+.editor-styles-wrapper h6.s-b-40,
+p.s-b-40, h1.s-b-40, h2.s-b-40, h3.s-b-40, h4.s-b-40, h5.s-b-40, h6.s-b-40 {
+  margin-bottom: 40px; }
+.editor-styles-wrapper p.ln-1,
+.editor-styles-wrapper h1.ln-1,
+.editor-styles-wrapper h2.ln-1,
+.editor-styles-wrapper h3.ln-1,
+.editor-styles-wrapper h4.ln-1,
+.editor-styles-wrapper h5.ln-1,
+.editor-styles-wrapper h6.ln-1,
+p.ln-1, h1.ln-1, h2.ln-1, h3.ln-1, h4.ln-1, h5.ln-1, h6.ln-1 {
+  line-height: 1; }
+.editor-styles-wrapper p.ln-1-15,
+.editor-styles-wrapper h1.ln-1-15,
+.editor-styles-wrapper h2.ln-1-15,
+.editor-styles-wrapper h3.ln-1-15,
+.editor-styles-wrapper h4.ln-1-15,
+.editor-styles-wrapper h5.ln-1-15,
+.editor-styles-wrapper h6.ln-1-15,
+p.ln-1-15, h1.ln-1-15, h2.ln-1-15, h3.ln-1-15, h4.ln-1-15, h5.ln-1-15, h6.ln-1-15 {
+  line-height: 1.15; }
+.editor-styles-wrapper p.ln-1-25,
+.editor-styles-wrapper h1.ln-1-25,
+.editor-styles-wrapper h2.ln-1-25,
+.editor-styles-wrapper h3.ln-1-25,
+.editor-styles-wrapper h4.ln-1-25,
+.editor-styles-wrapper h5.ln-1-25,
+.editor-styles-wrapper h6.ln-1-25,
+p.ln-1-25, h1.ln-1-25, h2.ln-1-25, h3.ln-1-25, h4.ln-1-25, h5.ln-1-25, h6.ln-1-25 {
+  line-height: 1.25; }
+.editor-styles-wrapper p.ln-1-33,
+.editor-styles-wrapper h1.ln-1-33,
+.editor-styles-wrapper h2.ln-1-33,
+.editor-styles-wrapper h3.ln-1-33,
+.editor-styles-wrapper h4.ln-1-33,
+.editor-styles-wrapper h5.ln-1-33,
+.editor-styles-wrapper h6.ln-1-33,
+p.ln-1-33, h1.ln-1-33, h2.ln-1-33, h3.ln-1-33, h4.ln-1-33, h5.ln-1-33, h6.ln-1-33 {
+  line-height: 1.33; }
+.editor-styles-wrapper p.ln-1-5,
+.editor-styles-wrapper h1.ln-1-5,
+.editor-styles-wrapper h2.ln-1-5,
+.editor-styles-wrapper h3.ln-1-5,
+.editor-styles-wrapper h4.ln-1-5,
+.editor-styles-wrapper h5.ln-1-5,
+.editor-styles-wrapper h6.ln-1-5,
+p.ln-1-5, h1.ln-1-5, h2.ln-1-5, h3.ln-1-5, h4.ln-1-5, h5.ln-1-5, h6.ln-1-5 {
+  line-height: 1.5; }
+.editor-styles-wrapper p.ln-1-75,
+.editor-styles-wrapper h1.ln-1-75,
+.editor-styles-wrapper h2.ln-1-75,
+.editor-styles-wrapper h3.ln-1-75,
+.editor-styles-wrapper h4.ln-1-75,
+.editor-styles-wrapper h5.ln-1-75,
+.editor-styles-wrapper h6.ln-1-75,
+p.ln-1-75, h1.ln-1-75, h2.ln-1-75, h3.ln-1-75, h4.ln-1-75, h5.ln-1-75, h6.ln-1-75 {
+  line-height: 1.75; }
+.editor-styles-wrapper p.ln-1-90,
+.editor-styles-wrapper h1.ln-1-90,
+.editor-styles-wrapper h2.ln-1-90,
+.editor-styles-wrapper h3.ln-1-90,
+.editor-styles-wrapper h4.ln-1-90,
+.editor-styles-wrapper h5.ln-1-90,
+.editor-styles-wrapper h6.ln-1-90,
+p.ln-1-90, h1.ln-1-90, h2.ln-1-90, h3.ln-1-90, h4.ln-1-90, h5.ln-1-90, h6.ln-1-90 {
+  line-height: 1.9; }
+.editor-styles-wrapper p.ln-2,
+.editor-styles-wrapper h1.ln-2,
+.editor-styles-wrapper h2.ln-2,
+.editor-styles-wrapper h3.ln-2,
+.editor-styles-wrapper h4.ln-2,
+.editor-styles-wrapper h5.ln-2,
+.editor-styles-wrapper h6.ln-2,
+p.ln-2, h1.ln-2, h2.ln-2, h3.ln-2, h4.ln-2, h5.ln-2, h6.ln-2 {
+  line-height: 2; }
+.editor-styles-wrapper p.ta-left,
+.editor-styles-wrapper h1.ta-left,
+.editor-styles-wrapper h2.ta-left,
+.editor-styles-wrapper h3.ta-left,
+.editor-styles-wrapper h4.ta-left,
+.editor-styles-wrapper h5.ta-left,
+.editor-styles-wrapper h6.ta-left,
+p.ta-left, h1.ta-left, h2.ta-left, h3.ta-left, h4.ta-left, h5.ta-left, h6.ta-left {
+  text-align: left; }
+.editor-styles-wrapper p.ta-center,
+.editor-styles-wrapper h1.ta-center,
+.editor-styles-wrapper h2.ta-center,
+.editor-styles-wrapper h3.ta-center,
+.editor-styles-wrapper h4.ta-center,
+.editor-styles-wrapper h5.ta-center,
+.editor-styles-wrapper h6.ta-center,
+p.ta-center, h1.ta-center, h2.ta-center, h3.ta-center, h4.ta-center, h5.ta-center, h6.ta-center {
+  text-align: center; }
+.editor-styles-wrapper p.ta-right,
+.editor-styles-wrapper h1.ta-right,
+.editor-styles-wrapper h2.ta-right,
+.editor-styles-wrapper h3.ta-right,
+.editor-styles-wrapper h4.ta-right,
+.editor-styles-wrapper h5.ta-right,
+.editor-styles-wrapper h6.ta-right,
+p.ta-right, h1.ta-right, h2.ta-right, h3.ta-right, h4.ta-right, h5.ta-right, h6.ta-right {
+  text-align: right; }
+
+.cell-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #000; }
+  .cell-header span {
+    font-size: 24px; }
+  .cell-header i {
+    font-size: 1.3em;
+    cursor: pointer; }
+  .cell-header span, .cell-header i {
+    align-self: center; }
+
+.collapsible {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out; }
+  .collapsible.open {
+    max-height: 400px; }
+
+.wp-block-group.has-color-1-color.has-text-color .cell-header {
+  border-bottom: 1px solid #fff; }

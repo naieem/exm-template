@@ -1,0 +1,8 @@
+@import "../01-variables-site/variables-site";
+@import "../02-mixins/mixins-master";
+
+.google-map{
+    .map{
+        height: 400px;
+    }
+}

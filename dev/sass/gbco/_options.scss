@@ -1,0 +1,35 @@
+/// Gutenberg Custom Options Support
+// added 2021 . June
+/*
+
+ * Text Wrapper
+ class : text-wrapper
+ @param : $maxWidth
+ @param : $direction
+
+*/
+//
+///
+@mixin set-wrap( $maxWidth : 768px, $direction : left) {
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:$maxWidth;
+
+    @if $direction == left {
+        margin-left:0;
+        text-align:left;
+    }
+    @if $direction == center {
+        text-align:center;
+    }
+    @if $direction == right {
+        margin-right:0;
+        text-align:right;
+    }
+}
+.text-wrapper {
+    @include media-screen( $bk_mobile, min) {
+        @include set-wrap( 1024px ); 
+    }
+}

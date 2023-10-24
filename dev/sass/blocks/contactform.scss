@@ -1,0 +1,53 @@
+@import "../01-variables-site/variables-site";
+@import "../02-mixins/mixins-master";
+.wpcf7{
+    .contact-form{
+        .wpcf7-form{
+            .wpcf7-not-valid-tip{
+                font-size: 0.85em;
+            }
+
+            &.invalid .wpcf7-response-output,
+            &.unaccepted .wpcf7-response-output{
+                border-color: $color_block_palet3;
+            }
+
+            > p{
+                display: flex;
+                flex-wrap: wrap;
+
+                br{
+                    display: none;
+                }
+
+                .wpcf7-form-control-wrap{
+                    width: calc(50% - 15px);
+                    flex: 1 1 auto;
+                    margin-bottom: 15px;
+
+                    &:nth-of-type(2n){
+                        margin-left: 30px;
+                    }
+
+                    &.your-message{
+                        width: 100%;
+                        margin-left: 0;
+                    }
+
+                    input, textarea{
+                        width: 100%;
+                    }
+
+                    
+                    @include media-screen(600px){
+                        width: 100%;
+
+                        &:nth-of-type(2n){
+                            margin-left: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

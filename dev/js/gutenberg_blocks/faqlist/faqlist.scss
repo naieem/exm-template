@@ -1,0 +1,50 @@
+.wp-block-exm-faqlist {
+
+    .collapsible {
+        p {
+            
+            padding:0 1.2em;
+        }
+        margin-bottom: 1.5em;;
+    }
+    button{
+        display: block;
+        margin: 0 auto;
+        border:3px solid #000;
+        background-color: #000;
+        color:#fff;
+        font-weight: 600;
+        transition: color 0.25s, background-color 0.25s;
+        &:hover{
+            border:3px solid #000;
+            background-color: transparent;
+        }
+    }
+    .location-cell {
+        opacity: 0.75;
+        transition: opacity 0.5s;
+        &.is-open,&:hover {
+            
+            opacity: 1;
+            
+        }
+        .cell-header{
+            cursor: pointer;   
+        }
+    }
+}
+
+.wp-block-group.has-color-5-background-color.has-background{
+    .wp-block-exm-faqlist {
+        button{
+            border:3px solid #fff;
+            background-color: #fff;
+            color:#1739e6;
+            &:hover{
+                border:3px solid #fff;
+                color:#fff;
+                background-color: transparent;
+            }
+        }
+    }
+}

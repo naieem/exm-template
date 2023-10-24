@@ -1,0 +1,210 @@
+@import "01-variables-site/variables-site";
+@import "02-mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+/// Conditions initiales
+body{
+    font-size: 1.6rem;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.p-0{
+    padding:0;
+}
+.m-0{
+    margin:0;
+}
+
+.entry-content{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+html.preload.js{
+    body{
+        animation: -cdm-preload 8s steps(1,end) 0s 1 normal both;
+    }
+    
+
+    #cdm-loader,#cdm-loader-prod{
+        animation: -cdm-loader-preload 8s steps(1,end) 0s 1 normal both;
+    }
+    
+    /// Empêche les transitions avant que le document soit prêt.
+    *{
+        transition: none !important;
+    }
+}
+
+#page{
+    visibility: hidden;
+}
+
+// Évite tout ça si pas de JS
+html.no-js #cdm-loader,#cdm-loader-prod{
+    display:none;
+}
+
+.toAnimate{
+    opacity: 0;
+    @media all and (-ms-high-contrast:none) {
+        opacity: 1; // iExplorer 11 fix
+    }
+}
+
+.hide-mobile{
+    display: initial;
+    @include media-screen($bk_mobile){
+        display: none!important;
+        
+    }
+}
+
+.wp-block-columns.reverse-mobile{
+    @include media-screen($bk_mobile){
+        flex-direction: column-reverse;
+    }
+}
+
+.rellax {
+    transition: transform 0.15s;
+}
+
+.content,
+.woocommerce-cart .woocommerce,
+.woocommerce-ResetPassword,
+.wp-block-group__inner-container{
+    width: 100%;
+    max-width: $site__content-max-width;
+    padding-left: $site__gutter;
+    padding-right: $site__gutter;
+    @include center-block();
+    .wp-block-group__inner-container,
+    .alignfull{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.alignwide{
+    width: 100%;
+    max-width: $site__content-wide-max-width;
+    padding-left: $site__gutter;
+    padding-right: $site__gutter;
+    @include center-block();
+    box-sizing:border-box;
+    &>.wp-block-group__inner-container{
+        padding:0;
+
+    }
+}
+
+.alignfull{
+    width: 100%;
+    padding-left: $site__gutter;
+    padding-right: $site__gutter;
+    box-sizing:border-box;
+    &>.wp-block-group__inner-container{
+        padding:0;
+        margin:0;
+        max-width: inherit;
+        &>hr{
+            margin-left: -$site__gutter;
+            margin-right: -$site__gutter;
+            width: auto;
+        }
+
+    }
+}
+
+#cdm-loader,#cdm-loader-prod{
+    display: inline-block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6.4rem;
+    height: 6.4rem;
+    visibility: hidden;
+    z-index: 99999;
+
+    div{
+        position: absolute;
+        top: 2.7rem;
+        width: 1.1rem;
+        height: 1.1rem;
+        border-radius: 50%;
+        background: $color_block_palet2;
+        animation-timing-function: cubic-bezier(0, 1, 1, 0);
+
+        &:nth-child(1){
+            left: 0.6rem;
+            animation: lds-ellipsis1 0.6s infinite;
+        }
+
+        &:nth-child(2){
+            left: 0.6rem;
+            animation: lds-ellipsis2 0.6s infinite;
+        }
+
+        &:nth-child(3){
+            left: 2.6rem;
+            animation: lds-ellipsis2 0.6s infinite;
+        }
+
+        &:nth-child(4){
+            left: 4.5rem;
+            animation: lds-ellipsis3 0.6s infinite;
+        }
+    }
+}
+
+@keyframes lds-ellipsis1 {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes lds-ellipsis3 {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes lds-ellipsis2 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(19px, 0);
+    }
+}
+
+@keyframes -cdm-preload{
+    from{
+        visibility:hidden;
+    }
+    to{
+        visibility:visible;
+    }
+}
+
+@keyframes -cdm-loader-preload{
+    from{
+        visibility:visible;
+    }
+    to{
+        visibility:hidden;
+    }
+}

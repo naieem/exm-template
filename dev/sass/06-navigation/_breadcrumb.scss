@@ -1,0 +1,21 @@
+.breadcrumb {
+	font-size: 1.5rem;
+	padding: 1rem 0;
+	a {
+		color: darken($color_block_palet6,30%);
+		text-decoration:none;
+		&:hover{
+			color:$color__link-hover;
+		}
+	}
+	i {
+		color: darken($color_block_palet6,30%);
+		vertical-align: middle;
+		padding: 0rem 1rem ;
+		font-size: 1.6rem;
+	}
+	span{
+		font-weight: 600;
+	}
+	
+}
