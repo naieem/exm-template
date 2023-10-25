@@ -19,7 +19,7 @@ const Hero = (props) => {
                     {props.isSave ? <InnerBlocks.Content /> : <InnerBlocks />}
                     
                     <div className={'bottom'}>
-                        <div className="left">
+                        <div className="left test-naieem">
                             <div className="wp-block-buttons">
                                 <div className="wp-block-button">
                                     <a  className="wp-block-button__link has-color-1-color has-color-5-background-color has-text-color has-background"
