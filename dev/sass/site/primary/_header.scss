@@ -155,6 +155,9 @@
 						padding-right: 20px;
 						flex-direction: column;
 					}
+					&>.header_top_search{
+						margin-top: -2px;
+					}
 					&>li {
 						position: relative;
 						box-sizing: border-box;
@@ -193,6 +196,7 @@
 							}
 						}
 						&:last-child {
+							margin-top: -3px;
 							margin-right : 0;
 						}
 						&.menu-item-has-children {
