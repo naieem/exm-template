@@ -506,7 +506,7 @@ span.select2-results .select2-results__option {
             .single-product .product .col-2 > div.summary .add-to-cart-flex > span a.added:after {
               content: "\f00c";
               font-weight: 600;
-              font-family: 'Font Awesome 6 Pro';
+              font-family: 'Font Awesome 5 Pro';
               margin-left: 0.5em;
               color: #E30613;
               display: inline-block; }
@@ -609,7 +609,7 @@ span.select2-results .select2-results__option {
           .single-product .product .col-2 .woocommerce-product-gallery .flex-direction-nav li.flex-nav-prev a::after {
             color: #000000;
             content: "\f053";
-            font-family: "Font Awesome 6 Pro";
+            font-family: 'Font Awesome 5 Pro';
             left: 0;
             right: 0;
             bottom: 0;
@@ -628,7 +628,7 @@ span.select2-results .select2-results__option {
           .single-product .product .col-2 .woocommerce-product-gallery .flex-direction-nav li.flex-nav-next a::after {
             color: #000000;
             content: "\f054";
-            font-family: 'Font Awesome 6 Pro';
+            font-family: 'Font Awesome 5 Pro';
             left: 0;
             right: 0;
             bottom: 0;
@@ -654,7 +654,7 @@ span.select2-results .select2-results__option {
             position: absolute;
             color: #000000;
             content: "\f111";
-            font-family: 'Font Awesome 6 Pro';
+            font-family: 'Font Awesome 5 Pro';
             left: 0;
             right: 0;
             bottom: 0;
@@ -662,7 +662,7 @@ span.select2-results .select2-results__option {
             font-size: 0.8em; }
           .single-product .product .col-2 .woocommerce-product-gallery .flex-control-nav li a.flex-active:after {
             content: "\f111";
-            font-family: 'Font Awesome 6 Pro';
+            font-family: 'Font Awesome 5 Pro';
             font-weight: 600;
             display: inline-block; }
 .single-product .product .product_info {
@@ -691,7 +691,7 @@ span.select2-results .select2-results__option {
     transition: color 0.25s , border-color 0.25s;
     position: relative; }
     .single-product .product .technical-spec h3:after {
-      font-family: "Font Awesome 6 Pro";
+      font-family: "Font Awesome 5 Pro";
       font-weight: 300;
       font-size: 1.5rem;
       top: 50%;
