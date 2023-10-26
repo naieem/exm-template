@@ -44,27 +44,9 @@
             }
         }
         .left {
-            display: flex;
-            align-content: flex-end;
             .wp-block-buttons {
-                display: flex;
-                flex-direction: row;
-                align-items: flex-end;
                 .wp-block-button {
                     margin-right: 10px;
-                }
-            }
-            i{
-                font-size: 0.8em;
-                transform: translateY(-2px);
-                vertical-align: middle;
-            }
-            img{
-                max-height: 70px;
-                @media screen and (max-width : 768px) {
-                    max-height: 50px;
-                    margin-top:15px
-                    
                 }
             }
         }
