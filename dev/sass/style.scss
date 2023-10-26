@@ -613,8 +613,11 @@ input:focus-visible {
         margin-top: 0 !important;
     }
     p{
-        &:first-child{
+        :first-child{
             margin-top: 0px !important;
         }
     }
+}
+.woocommerce-MyAccount-content p:first-child{
+    margin-top: 0px !important;
 }
