@@ -51,7 +51,7 @@
             color: #fff;
             display: flex;
             padding-bottom:70px;
-            justify-content: space-between;
+            justify-content: flex-end;
             @media screen and (max-width : 768px) {
                 flex-direction: column;
                 padding-bottom:20px;
