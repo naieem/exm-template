@@ -608,3 +608,13 @@ input:focus-visible {
 .exm-menu-cart{
     margin-top: -5px !important;
 }
+.woocommerce-MyAccount-content{
+    &.woocommerce-notices-wrapper{
+        margin-top: 0 !important;
+    }
+    &p{
+        &:last-child{
+            margin-top: 0px !important;
+        }
+    }
+}

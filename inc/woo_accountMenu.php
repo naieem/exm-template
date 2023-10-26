@@ -47,9 +47,9 @@ final class WOO_AccountMenu {
 	 * WOO_AccountMenu Constructor (called on wp init).
 	 */
 	private function __construct() {
-		$this->endpoints = array(
-			'mes-favoris' => __('My favorites', 'theme-client')
-		);
+		// $this->endpoints = array(
+		// 	'mes-favoris' => __('My favorites', 'theme-client')
+		// );
 		
 		$this->init_hooks();
 	}
