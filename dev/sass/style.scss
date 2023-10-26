@@ -609,10 +609,10 @@ input:focus-visible {
     margin-top: -5px !important;
 }
 .woocommerce-MyAccount-content{
-    &>.woocommerce-notices-wrapper{
+    .woocommerce-notices-wrapper{
         margin-top: 0 !important;
     }
-    &>p{
+    p{
         &:first-child{
             margin-top: 0px !important;
         }
