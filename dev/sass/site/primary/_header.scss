@@ -331,7 +331,7 @@
 
 body:not(.scrolled){
 	#masthead{
-		
+		border-bottom: none;
 		#site-header-cart{
 			.woocommerce-mini-cart-item{
 				a{
