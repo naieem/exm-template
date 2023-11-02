@@ -322,7 +322,7 @@
 		.site-branding {
 			a {
 				img{
-					filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(500%) contrast(0%) brightness(500%);
+					filter: brightness() contrast(0) brightness();
 				}
 			}
 		}
