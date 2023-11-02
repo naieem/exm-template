@@ -319,7 +319,6 @@
 
 body:not(.scrolled).tax-product_cat{
 	#masthead{
-		border-bottom: none;
 		.site-branding {
 			a {
 				img{
@@ -327,6 +326,13 @@ body:not(.scrolled).tax-product_cat{
 				}
 			}
 		}
+
+	}		
+}
+body:not(.scrolled){
+	#masthead{
+		border-bottom: none;
+
 		#site-header-cart{
 			.woocommerce-mini-cart-item{
 				a{
