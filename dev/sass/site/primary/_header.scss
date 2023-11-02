@@ -318,6 +318,11 @@
 }
 
 body:not(.scrolled){
+	.tax-product_cat{
+		#masthead{
+			border-bottom: none;
+		}
+	}
 	#masthead{
 		
 		#site-header-cart{
@@ -338,7 +343,7 @@ body:not(.scrolled){
 		.site-branding {
 			a {
 				img{
-					filter: brightness(5000%) contrast(0) brightness(5000%);
+					filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(500%) contrast(0%) brightness(500%);
 				}
 			}
 		}
