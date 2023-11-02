@@ -317,21 +317,16 @@
 	transition: height 0.25s;
 }
 
-body:not(.scrolled){
-	.tax-product_cat{
-		#masthead{
-			border-bottom: none;
-			.site-branding {
-				a {
-					img{
-						filter: brightness(0%) contrast(0%) brightness(0%);
-					}
+body:not(.scrolled).tax-product_cat{
+	#masthead{
+		border-bottom: none;
+		.site-branding {
+			a {
+				img{
+					filter: brightness(0%) contrast(0%) brightness(0%);
 				}
 			}
 		}
-	}
-	#masthead{
-		border-bottom: none;
 		#site-header-cart{
 			.woocommerce-mini-cart-item{
 				a{
