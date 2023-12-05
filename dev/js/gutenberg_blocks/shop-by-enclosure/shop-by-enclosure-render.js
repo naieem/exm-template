@@ -53,19 +53,19 @@ function build_shop_by_enclosure() {
                 items:3
             },
             1024:{
-                items:4
+                items:3
             },
             1280:{
-                items:4
+                items:3
             },
             1440:{
-                items:5
+                items:3
             },
             1660:{
-                items:5
+                items:3
             },
             1920:{
-                items:5
+                items:3
             },
         }
     }) 
