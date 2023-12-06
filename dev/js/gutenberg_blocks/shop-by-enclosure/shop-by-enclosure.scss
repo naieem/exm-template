@@ -79,3 +79,20 @@
         }
     }
 }
+
+@media screen and (min-width: 1280px) {
+	.wp-block-exm-shop-by-enclosure {
+		&>div {
+			.type-wrapper{
+				span{
+					font-size:20px;
+					font-weight:600; 
+				}
+				figure{
+					height: 176px;
+					width: 176px;
+				}
+			}
+		}
+	} 
+}
