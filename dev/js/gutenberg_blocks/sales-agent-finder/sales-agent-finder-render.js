@@ -11,6 +11,7 @@ const build_salesagentfinder = () => {
             let DISTANCE = 0;
             let CIRCLE = null;
             let LAST_QUERY = "";
+            let MAP = initMap();
 
             const rad = (x) =>  x * Math.PI / 180;
 
@@ -61,7 +62,7 @@ const build_salesagentfinder = () => {
             };
 
             const FILTER_ALL = (val)=>{
-                
+                console.log('filter is on');
                 CODE_POSTAL = val.postal
                 DISTANCE = val.range
                
@@ -110,7 +111,6 @@ const build_salesagentfinder = () => {
                    
             }
             cdm_core.react.render(<Filters onfilter={FILTER_ALL} />,document.querySelector('.wp-block-exm-sales-agent-finder .filters'));
-            let MAP = initMap();
             TRIER()
             function findmarkerbyID(id){
                 MAP.markers.forEach(marker => {
