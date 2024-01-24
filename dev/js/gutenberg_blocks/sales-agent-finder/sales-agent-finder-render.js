@@ -150,7 +150,7 @@ const List = (props) => {
 
     return <Fragment>
         {props.markers.map(x => {
-            if (x.visible) {
+            if (x?.visible) {
                 added++;
                 return <Collapsible title={cdm_core.fn.HTMLEntities(x.agent.title)} >
                     <Agent find={props.find} agent={x.agent} />
