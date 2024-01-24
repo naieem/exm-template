@@ -34,7 +34,7 @@ const build_salesagentfinder = () => {
                 let pointsCount = 0;
                 
                 MAP.markers.forEach(marker => {
-                    if(CODE_POSTAL !== ''){
+                    if(CODE_POSTAL !== '' && marker){
                         if( getDistance(marker.position,CIRCLE.center) <= DISTANCE*1000 ){
                             marker.setVisible(true);
                             rebound = true;
