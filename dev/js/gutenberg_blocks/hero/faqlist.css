@@ -1,0 +1,31 @@
+.wp-block-exm-faqlist .collapsible {
+  margin-bottom: 1.5em; }
+  .wp-block-exm-faqlist .collapsible p {
+    padding: 0 1.2em; }
+.wp-block-exm-faqlist button {
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #000;
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.25s, background-color 0.25s; }
+  .wp-block-exm-faqlist button:hover {
+    border: 3px solid #000;
+    background-color: transparent; }
+.wp-block-exm-faqlist .location-cell {
+  opacity: 0.75;
+  transition: opacity 0.5s; }
+  .wp-block-exm-faqlist .location-cell.is-open, .wp-block-exm-faqlist .location-cell:hover {
+    opacity: 1; }
+  .wp-block-exm-faqlist .location-cell .cell-header {
+    cursor: pointer; }
+
+.wp-block-group.has-color-5-background-color.has-background .wp-block-exm-faqlist button {
+  border: 3px solid #fff;
+  background-color: #fff;
+  color: #1739e6; }
+  .wp-block-group.has-color-5-background-color.has-background .wp-block-exm-faqlist button:hover {
+    border: 3px solid #fff;
+    color: #fff;
+    background-color: transparent; }

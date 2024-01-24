@@ -37,6 +37,8 @@
       @media screen and (max-width: 768px) {
         .wp-block-exm-hero .content h1 {
           font-size: 45px; } }
+    .wp-block-exm-hero .content .left .wp-block-buttons .wp-block-button {
+      margin-right: 10px; }
     .wp-block-exm-hero .content .bottom {
       width: 100%;
       align-self: flex-end;
@@ -44,26 +46,28 @@
       color: #fff;
       display: flex;
       padding-bottom: 70px;
-      justify-content: space-between; }
+      justify-content: flex-end; }
       @media screen and (max-width: 768px) {
         .wp-block-exm-hero .content .bottom {
           flex-direction: column;
           padding-bottom: 20px; } }
-      .wp-block-exm-hero .content .bottom .left, .wp-block-exm-hero .content .bottom .right {
+      .wp-block-exm-hero .content .bottom .right {
         display: flex;
         align-content: flex-end; }
-        .wp-block-exm-hero .content .bottom .left .wp-block-buttons, .wp-block-exm-hero .content .bottom .right .wp-block-buttons {
+        .wp-block-exm-hero .content .bottom .right .wp-block-buttons {
           display: flex;
           flex-direction: row;
           align-items: flex-end; }
-        .wp-block-exm-hero .content .bottom .left i, .wp-block-exm-hero .content .bottom .right i {
+          .wp-block-exm-hero .content .bottom .right .wp-block-buttons .wp-block-button {
+            margin-right: 10px; }
+        .wp-block-exm-hero .content .bottom .right i {
           font-size: 0.8em;
           transform: translateY(-2px);
           vertical-align: middle; }
-        .wp-block-exm-hero .content .bottom .left img, .wp-block-exm-hero .content .bottom .right img {
+        .wp-block-exm-hero .content .bottom .right img {
           max-height: 70px; }
           @media screen and (max-width: 768px) {
-            .wp-block-exm-hero .content .bottom .left img, .wp-block-exm-hero .content .bottom .right img {
+            .wp-block-exm-hero .content .bottom .right img {
               max-height: 50px;
               margin-top: 15px; } }
     .wp-block-exm-hero .content.isEditor {

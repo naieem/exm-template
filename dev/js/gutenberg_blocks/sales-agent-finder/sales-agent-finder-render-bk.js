@@ -296,17 +296,11 @@ function initMap(){
         cdm_core.react.render(<Agent agent={marker.agent} />,marker.infowindow.getContent())
     }
 
-try {
     map.markers.forEach(marker => {
         marker.addListener('click',()=>{
             map.togglemarker(marker)
         })
     })
-} catch(e) {
-  //e; // => ReferenceError
-  console.log('missingVar marker.addListener...');
-}
-
     return map;
 }
 
